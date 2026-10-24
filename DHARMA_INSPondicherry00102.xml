@@ -86,7 +86,7 @@
                         <item>mā-pāratamum <hi rend="grantha">śr<choice><orig>i</orig><reg>ī</reg></choice>-rā</hi>māyaṇamum vācippāṉ Oruvaṉukku nel Iru-tuṇi-k kuṟu 
                             <lb n="24" break="no"/>ṇiyum</item>
                         <item><hi rend="grantha">śr<choice><orig>i</orig><reg>ī</reg></choice></hi>-maṉucāttiram kēṭpippāṉ Oruvaṉukku nel tūṇiyum</item>
-                    <item><hi rend="grantha">śr<choice><orig>i</orig><reg>ī</reg></choice></hi>-vaikāna<hi rend="grantha">sa</hi>m ...</item></list>
+                        <item><hi rend="grantha">śr<choice><orig>i</orig><reg>ī</reg></choice></hi>-vaikāna<hi rend="grantha">sa</hi>m ...</item></list>
                     <lb n="25" break="no"/>...
                     <lb n="42" break="no"/>...
                 </p>
@@ -101,6 +101,14 @@
             
             <div type="translation" source="bib:Kuppusamy+al2010_01">
                 
+                <p n="1">Hail! Prosperity!</p>
+                <p n="1-5">
+                    While the goddess of the earth was beaming under his fringed white
+                    parasol, which resembled the moon in beauty, (the king) wedded the goddess of fortune, wielded the
+                    scepter, and destroyed the dark Kali (age),
+                    ...
+                </p>
+                
             </div>
             
             <div type="commentary">
@@ -108,13 +116,11 @@
             </div>
             
             <div type="bibliography">
+                                
+                <p>Reported in <bibl><ptr target="bib:ARIE1918-1919"/></bibl> (ARIE/1918-1919/C/1919/176).</p>
                 
-                <!--
-                    176/1919
-                    <p>Reported in <bibl><ptr target="bib:ARIE1934-1935"/></bibl> (ARIE/1934-1935/B/1934-1935/104).</p>
-                -->
                 <p>Edited in <bibl><ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/></bibl> (PI 102) and translated in <bibl><ptr target="bib:Kuppusamy+al2010_01"/></bibl> (PI 102).</p>
-                <p>This digital edition by Emmanuel Francis (2024), based on <bibl><ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/></bibl>.</p>
+                <p>This digital edition by Emmanuel Francis (2024), based on <bibl><ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/></bibl>. This translation adapted from <bibl><ptr target="bib:Kuppusamy+al2010_01"/></bibl> (PI 102).</p>
                 
                 <listBibl type="primary">
                     
@@ -132,11 +138,16 @@
                     
                 </listBibl>   
                 
+                <listBibl type="secondary">
+                    <bibl>
+                        <ptr target="bib:ARIE1918-1919"/>
+                        <citedRange unit="page">63</citedRange>
+                        <citedRange unit="appendix"> C/1919</citedRange>
+                        <citedRange unit="item">176</citedRange>
+                    </bibl>
+                </listBibl>
             </div>
             
         </body>
     </text>
 </TEI>
-
-<!--METADATA:
-    On the south wall of the <foreign>ardhamaṇḍapa</foreign> in the temple of Tirumūlanātar at Tirukaṇṭheśvaram, Cuddalore taluk. Year 14 of king Jaṭāvarmaṉ Sundarapāṇḍya I: 1264 CE.-->
