@@ -8,7 +8,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Tirupuvaṉai, Varadarāja Perumāḷ temple, time of Rājādhirāja, year 30</title>
+                <title>Tirupuvaṉai / Thirubhuvanai, Varadarāja Perumāḷ temple, time of Rājādhirāja, year 30</title>
                 <respStmt>
                     <resp key="creator">author of digital edition</resp>
                     <persName ref="part:emfr">
@@ -28,7 +28,7 @@
                 <msDesc>
                     <msIdentifier><repository>as per external metadata</repository></msIdentifier>
                     <msContents>
-                        <summary>North, west and east walls. Cōḻa, Rājādhirāja I, RY 30 = 1048 A.D.</summary>
+                        <summary>North, west and east walls. Cōḻa, Rājādhirāja I Cōḻa, RY 30 = 1048 CE.</summary>
                     </msContents>
                     <physDesc>
                         <handDesc>
@@ -78,6 +78,11 @@
                     <lb n="6" break="no"/>-mēṉikku niṉṟāka vaitta <hi rend="grantha">rājen<choice><orig>t</orig><reg>d</reg></choice>ra</hi>cōḻaṉ ut<unclear>ta</unclear>mākkarattikku-k koṇṭa nilam āvatu
                 </p>
                 
+                <p>
+                    namm-ūr vaṭa-piṭākai kō<unclear>k</unclear>kiḻānaṭi-p per-ēri k<choice><orig>i</orig><reg>ī</reg></choice>ḻ-k koṭu
+                    <lb n="7" break="no"/>kkūr-āṉa <hi rend="grantha">rājen<choice><orig>t</orig><reg>d</reg></choice>ra</hi>cōḻa-nallū<supplied reason="omitted">r</supplied> nilam
+                    ...
+                </p>
                 <p>                    
                     <lb n="21"/>nel nūṟṟ’ irupatiṉ ...
                     niccal paṭi Uṇṇum <hi rend="grantha">śrī</hi>-vayi<hi rend="grantha">ṣṇa</hi>var pa<choice><orig>n</orig><reg>ṉ</reg></choice>ṉiruvarkku nāḷ oṉṟukku nel kalamum
@@ -138,7 +143,7 @@
                         <item><supplied reason="omitted">one <foreign>tūṇi</foreign> and one <foreign>patakku</foreign> of paddy for on person who studies Rūpāvātara <supplied reason="explanation"><foreign>Ur<choice><orig>u</orig><reg>ū</reg></choice>pāvatāram</foreign></supplied>,</supplied></item>
                         <item>two <foreign>tūṇi</foreign>s and one <foreign>kuṟuṇi</foreign> of paddy who reads Mahābhārata <supplied reason="explanation"><foreign>mā-pāratam</foreign></supplied> and śrī-Rāmāyaṇa <supplied reason="explanation"><foreign><hi rend="grantha">śr<choice><orig>i</orig><reg>ī</reg></choice>-rā</hi>māyaṇam</foreign></supplied>,</item>
                         <item>one <foreign>tūṇi</foreign> of paddy for one person who teaches śrī-Manu-śāstra <supplied reason="explanation"><foreign><hi rend="grantha">śr<choice><orig>i</orig><reg>ī</reg></choice></hi>-maṉucāttiram
-</foreign></supplied>,</item>
+                        </foreign></supplied>,</item>
                         <item>three <foreign>kuṟuṇi</foreign>s of paddy for one person who teaches śrī-Vaikhānasa,</item>
                         <item>60 people who study R̥g-veda <supplied reason="explanation"><foreign>Irukku-vētam</foreign></supplied>and Apūrva <supplied reason="explanation"><foreign>Apūrvvam</foreign></supplied>,</item>
                         <item>60 people who study Yajurveda <supplied reason="explanation"><foreign>ya<hi rend="grantha">jurve</hi>tam</foreign></supplied> and Apūrva,</item>
