@@ -60,7 +60,7 @@
                     <l n="2">...</l>
                     
                     <l n="76">vi<hi rend="grantha">śva</hi>lōkattu <lb n="5"/>viḷaṅka manuneṟi niṉṟ’</l>
-                    <l n="77">a<hi rend="grantha">śva</hi>mēta<unclear>ñ</unclear> c<unclear>e</unclear>yt’ aracu v<choice><orig>i</orig><reg>ī</reg></choice>ṟṟirun=ta</l>
+                    <l n="77">a<hi rend="grantha">śva</hi>mēta<unclear>ñ</unclear> c<unclear>e</unclear>ytu aracu v<choice><orig>i</orig><reg>ī</reg></choice>ṟṟirun=ta</l>
                     <l n="78"><hi rend="grantha">ja</hi>yaṅ-koṇṭa-cōḻa<choice><orig>n</orig><reg>ṉ</reg></choice> uyarn=ta perum-pukaḻ</l>
                 </lg>
                 
@@ -69,24 +69,42 @@
                 </p>
                 
                 <p>
-                    ... tiru
-                    <lb n="6" break="no"/>-mēṉikku niṉṟāka ...
-                    
+                    <hi rend="grantha">rājen<choice><orig>t</orig><reg>d</reg></choice>ra</hi>-cōḻa-vaḷanāṭṭu viḻupparaiya-nāṭṭu taṉiyūr <hi rend="grantha">śr<choice><orig>i</orig><reg>ī</reg></choice></hi>-tiripuvaṉa-mātēvi-c-caruppēti-maṅkalattu-p peruṅ-kuṟi-p peru-makkaḷōm
+                    Ivv-āṭṭai miṉa-ṉāyaṟṟu-p putaṉkiḻamai peṟṟa Uttiratti nāṉṟu
+                    nam makaṉār cempiyaṉ umpaḷanāṭṭu m<choice><orig>u</orig><reg>ū</reg></choice>vēn=tavēlār Eṭuppitta maṇṭapattē nirampa peruṅ-kuṟi kūṭi y-irun=tu paṇi-p-paṇiyāl paṇitta Eḻuttu
+                </p>
+                <p>
+                    nam m<choice><orig>u</orig><reg>ū</reg></choice>la-teyvam naṭuvil <hi rend="grantha">śr<choice><orig>i</orig><reg>ī</reg></choice></hi>v<choice><orig>i</orig><reg>ī</reg></choice>ra-nārāyaṇaṉ viṇṇakar Āḻvār tiru-nāmattāl <hi rend="grantha">se</hi>nāpatikaḷ I<hi rend="grantha">rājen<choice><orig>t</orig><reg>d</reg></choice>ra</hi>-cōḻa-mā-vali-vāṇa<hi rend="grantha">rāja</hi>r Uṭaiyār <hi rend="grantha">śr<choice><orig>i</orig><reg>ī</reg></choice>-rājen<choice><orig>t</orig><reg>d</reg></choice>ra</hi>-cōḻa-<hi rend="grantha">de</hi>var tiru
+                    <lb n="6" break="no"/>-mēṉikku niṉṟāka vaitta <hi rend="grantha">rājen<choice><orig>t</orig><reg>d</reg></choice>ra</hi>cōḻaṉ ut<unclear>ta</unclear>mākkarattikku-k koṇṭa nilam āvatu
+                </p>
+                
+                <p>                    
                     <lb n="21"/>nel nūṟṟ’ irupatiṉ ...
-                    niccal paṭi Uṇṇum <hi rend="grantha">śrī</hi>-vayi<hi rend="grantha">ṣṇa</hi>var panniruvarkku nāḷ oṉṟukku nel kalamum
-                    tiruvarātaṉai ceyvāṉ Oruvaṉukku nel patakam
+                    niccal paṭi Uṇṇum <hi rend="grantha">śrī</hi>-vayi<hi rend="grantha">ṣṇa</hi>var pa<choice><orig>n</orig><reg>ṉ</reg></choice>ṉiruvarkku nāḷ oṉṟukku nel kalamum
+                    tiruvarātaṉai ceyvāṉ Oruvaṉukku nel patakkum
                     tiruvāymoḻi viṇṇappam cey
                     <lb n="22" break="no"/>vāṉ Oruvaṉukku nel mu-k-kuṟuṇi y-āka
                     nālvarkku nel kalamum ...
                     <lb n="23" break="no"/>...
                     <list>
-                        <item>vētan=tam vakkaṇippāṉ Oruvaṉukku nel kalanē patakkum</item>
-                        <item><hi rend="grantha">mimāṃsai</hi> vakkaṇippāṉ Oruvaṉukku nel iru-tūṇi-k kuṟuṇiyum</item>
-                        <item>Urupāvatāraṅ kēṭpippāṉ Oruvaṉukku nel tūṇi-p patakkum</item>
+                        <item>vētān=tam vakkāṇippāṉ Oruvaṉukku nel kalanē patakkum</item>
+                        <item><hi rend="grantha">m<choice><orig>i</orig><reg>ī</reg></choice>māṃsai</hi> vakkāṇippāṉ Oruvaṉukku nel kalamum</item>
+                        <item>viyākaraṇam vakkāṇippāṉ Oruvaṉukku nel Iru-tūṇi-k kuṟuṇiyum</item>
+                        <item>Ur<choice><orig>u</orig><reg>ū</reg></choice>pāvatāraṅ kēṭpippāṉ Oruvaṉukku nel tūṇi-p patakkum</item>
                         <item>mā-pāratamum <hi rend="grantha">śr<choice><orig>i</orig><reg>ī</reg></choice>-rā</hi>māyaṇamum vācippāṉ Oruvaṉukku nel Iru-tuṇi-k kuṟu 
                             <lb n="24" break="no"/>ṇiyum</item>
                         <item><hi rend="grantha">śr<choice><orig>i</orig><reg>ī</reg></choice></hi>-maṉucāttiram kēṭpippāṉ Oruvaṉukku nel tūṇiyum</item>
-                        <item><hi rend="grantha">śr<choice><orig>i</orig><reg>ī</reg></choice></hi>-vaikāna<hi rend="grantha">sa</hi>m ...</item></list>
+                        <item><hi rend="grantha">śr<choice><orig>i</orig><reg>ī</reg></choice></hi>-vaikāna<hi rend="grantha">sa</hi>m Ōtuvippāṉ Oruvaṉukku nel mu-k-kuṟuṇiyum</item>
+                        <item>Irukku-vētam Apūrvvam Ōtuvār Aṟupatinmarum</item>
+                        <item>ya<hi rend="grantha">jurve</hi>tam Apūrvvam Ōtuvār Aṟupatinmarum</item>
+                        <item><hi rend="grantha">sa</hi>ntōka<hi rend="grantha">sā</hi>mam Ō<unclear>tu</unclear>vār Irupatiṉmarum</item>
+                        <item>talavukāra<hi rend="grantha">sā</hi>mamum Apūrvvamum va<hi rend="grantha">jasa</hi>nēyamum <hi rend="grantha">bo</hi>tāniya-<hi rend="grantha">sū</hi>ttiramum <hi rend="grantha">sattūṣāṭa-sū</hi>ttiramum Ōtuvar Ai<supplied reason="omitted">m</supplied>patinmarum</item>
+                    </list>
+                    Āka
+                    ṉūṟṟu-t toṇṇūṟṟuvarku pērāl nel Aṟu nāḻiyāka nel pati<choice><orig>n</orig><reg>ṉ</reg></choice> oru kalanē Iru-tūṇi-p patakku nāṉāḷiyum
+                </p>
+                <p>
+                    ...
                     <lb n="25" break="no"/>...
                     <lb n="42" break="no"/>...
                 </p>
@@ -104,11 +122,32 @@
                 <p n="1">Hail! Prosperity!</p>
                 <p n="1-5">
                     While the goddess of the earth was beaming under his fringed white
-                    parasol, which resembled the moon in beauty, (the king) wedded the goddess of fortune, wielded the
-                    scepter, and destroyed the dark Kali (age),
+                    parasol, which resembled the moon in beauty, <supplied reason="subaudible">the king</supplied> wedded the goddess of fortune, wielded the
+                    scepter, and destroyed the dark Kali <supplied reason="subaudible">age</supplied>,
                     ...
                 </p>
-                
+                <p n="5">Year 30 <supplied reason="subaudible">of the reign of</supplied> king Rājakēcarivaṉmar alias Lord śrī-Rājādhirāja-devar.</p>
+                <p n="5">The document ordered by us, the members of the great assembly of Tiripuvaṉamātēvi-c-caturvētimaṅkalam, an autonomous village in Viḻupparaiya-nāṭu in Rājendracōḻa-vaḷanāṭu after having assembled in full in the hall erected by our son, Cempiyaṉ Umpaḷanāṭṭu Mūvēntavēḷār, on Wednesday when the asterism Uttiraṭṭāti was current in the month of Mīṉa in this year <supplied reason="subaudible">is as follows</supplied>.</p>
+                <p n="5-6">The land we got for a special food offering called Rājendracōḻaṉ <foreign>uttamākkaram</foreign>, for the betterment of the sacred body of Lord śrī-Rājendracōḻa-devar in the name of śrī-Vīranārāyaṇa-viṇṇakar Āḻvār, our main deity in the centre <supplied reason="subaudible">of our village</supplied> endowed by Rājendracōḻa-māvali-vāṇarājar, commander in chief of the army is <supplied reason="subaudible">as follows</supplied>.</p>
+                <p n="6-"></p>
+                <p n="23-24">
+                    <list>
+                        <item>One <foreign>kalam</foreign> and one <foreign>patakku</foreign> of paddy for one person who gives exposition to Vedānta,</item>
+                        <item>one <foreign>kalam</foreign> of paddy for one person who gives exposition to Mīmāṃsā <supplied reason="explanation"><foreign><hi rend="grantha">m<choice><orig>i</orig><reg>ī</reg></choice>māṃsai</hi></foreign></supplied>,</item>
+                        <item>two <foreign>tūṇi</foreign>s and one <foreign>kuṟuṇi</foreign> of paddy for one person who gives exposition to grammar <supplied reason="explanation"><foreign>viyākaraṇam</foreign> = <foreign>vyākaraṇa</foreign></supplied>,</item>
+                        <item><supplied reason="omitted">one <foreign>tūṇi</foreign> and one <foreign>patakku</foreign> of paddy for on person who studies Rūpāvātara <supplied reason="explanation"><foreign>Ur<choice><orig>u</orig><reg>ū</reg></choice>pāvatāram</foreign></supplied>,</supplied></item>
+                        <item>two <foreign>tūṇi</foreign>s and one <foreign>kuṟuṇi</foreign> of paddy who reads Mahābhārata <supplied reason="explanation"><foreign>mā-pāratam</foreign></supplied> and śrī-Rāmāyaṇa <supplied reason="explanation"><foreign><hi rend="grantha">śr<choice><orig>i</orig><reg>ī</reg></choice>-rā</hi>māyaṇam</foreign></supplied>,</item>
+                        <item>one <foreign>tūṇi</foreign> of paddy for one person who teaches śrī-Manu-śāstra <supplied reason="explanation"><foreign><hi rend="grantha">śr<choice><orig>i</orig><reg>ī</reg></choice></hi>-maṉucāttiram
+</foreign></supplied>,</item>
+                        <item>three <foreign>kuṟuṇi</foreign>s of paddy for one person who teaches śrī-Vaikhānasa,</item>
+                        <item>60 people who study R̥g-veda <supplied reason="explanation"><foreign>Irukku-vētam</foreign></supplied>and Apūrva <supplied reason="explanation"><foreign>Apūrvvam</foreign></supplied>,</item>
+                        <item>60 people who study Yajurveda <supplied reason="explanation"><foreign>ya<hi rend="grantha">jurve</hi>tam</foreign></supplied> and Apūrva,</item>
+                        <item>20 people who study Sandoha-sāma <supplied reason="explanation"><foreign><hi rend="grantha">sa</hi>ntōka<hi rend="grantha">sā</hi>mam</foreign></supplied>,</item>
+                        <item>50 people who study Talavukārasāma <supplied reason="explanation"><foreign>talavukāra<hi rend="grantha">sā</hi>mam</foreign></supplied>, Apūrva, Vājasaneya <supplied reason="explanation"><foreign>va<hi rend="grantha">jasa</hi>nēyam</foreign></supplied>, Baudhāyanasūtra <supplied reason="explanation"><foreign><hi rend="grantha">bo</hi>tāniya-<hi rend="grantha">sū</hi>ttiram</foreign></supplied>, Sattūjātasūtra <supplied reason="explanation"><foreign><hi rend="grantha">sattūṣāṭa-sū</hi>ttiram</foreign></supplied>,</item>
+                    </list>
+                    thus 11 <foreign>kalam</foreign>s and two <foreign>tūṇi</foreign>s and one <foreign>patakku</foreign> of paddy for 190 people,
+                    at the rate of six nāḻis of paddy per day per person.
+                </p>
             </div>
             
             <div type="commentary">
@@ -116,7 +155,7 @@
             </div>
             
             <div type="bibliography">
-                                
+                
                 <p>Reported in <bibl><ptr target="bib:ARIE1918-1919"/></bibl> (ARIE/1918-1919/C/1919/176).</p>
                 
                 <p>Edited in <bibl><ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/></bibl> (PI 102) and translated in <bibl><ptr target="bib:Kuppusamy+al2010_01"/></bibl> (PI 102).</p>
