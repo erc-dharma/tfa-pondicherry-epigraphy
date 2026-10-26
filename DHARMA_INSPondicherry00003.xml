@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pākūr / Vākūr / Bahur, Tirumūlanātar temple, time of Kaṉṉaradeva, year 22</title>
+                <respStmt>
+                    <resp key="creator">author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+                <funder>European Research Council (ERC), grant agreement no 809994</funder></titleStmt>
+            <publicationStmt>
+                <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+                <pubPlace>Paris</pubPlace>
+                <idno type="filename">DHARMA_INSPondicherry00003.xml</idno>
+                <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+                <date from="2019" to="2026">2019-2026</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>as per external metadata</repository></msIdentifier>
+                    <msContents>
+                        <summary><foreign>Ardhamaṇḍapa</foreign>, south wall. Kaṉṉaradeva = Kṛṣṇa III Rāṣṭrakūṭa, RY 22 = 961 CE. </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p></p>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="part:reda" when="2026-10-26" status="draft">Creation of the file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>		
+                    <lb n="1"/>pāṟppati Ammai mukamaṇai Oṉṟu
+                    <lb n="2"/>nam poṉ mukamaṇai Oṉṟu
+                </p>
+                
+                <p>                    
+                    <lb n="3" /><hi rend="grantha">śrī</hi>-kaṉṉāra-tēvarkki yāṇṭu
+                    <lb n="4" /><num value="22">2 <g type="numeral">10</g> 2</num>-Āvatu
+                </p>
+                
+                <p>
+                    <hi rend="grantha">śrī</hi>-m<choice><orig>u</orig><reg>ū</reg></choice>la<hi rend="grantha">stā</hi>ṉa
+                    <lb n="5" break="no"/>m A<hi rend="grantha">ṃśa</hi>m-uṭaiya tiru-k-kōyil Uṭaiyār Elārmāyapāṟppati
+                    <lb n="6"/>parammaikku <hi rend="grantha"><choice><sic>ś</sic><corr>c</corr></choice>antrā</hi>ti<hi rend="grantha">tya</hi>val Erikka <supplied reason="omitted">ka</supplied>ṭava cāmaviḷakku O
+                    <lb n="7" break="no"/>ṉṟu 
+                </p>
+            </div>
+            
+            <div type="apparatus">
+                <listApp>
+                    <app loc="5">
+                        <lem source="bib:Kuppusamy+Vijayavenugopal2006_01">tiru-k-kōyil Uṭaiyār</lem>
+                        <rdg source="bib:SubrahmanyaAiyer1932_01">tirukkōyiluṭaiyār</rdg>
+                    </app>     
+                    <app loc="7">
+                        <lem source="bib:Kuppusamy+Vijayavenugopal2006_01"><supplied reason="omitted">ka</supplied>ṭava cāmaviḷakku</lem>
+                        <rdg source="bib:SubrahmanyaAiyer1932_01"><supplied reason="omitted">ka</supplied>ṭavā<hi rend="grantha">rā</hi> <supplied reason="omitted">kavu</supplied>m viḷakku</rdg>
+                    </app>    
+                </listApp>
+            </div>
+            
+            <div type="translation" source="bib:Kuppusamy+al2010_01">
+                <p n="1"><supplied reason="subaudible">There shall be</supplied> one face mask for Pāṟppati Ammai.</p>
+                <p n="2"><supplied reason="subaudible">There shall be</supplied> one face mask made out of good gold.</p>
+                <p n="3-4">22nd year <supplied reason="subaudible">of the reign</supplied> of śrī-Kaṉṉara-tēvar, one mid-night lamp to be burnt, as long as the moon and the sun will last, to <!--Elārmāya--> Pārppati Parammai, a part of the Lord of the sacred temple of śrī-Mūlastāṉam of Vākūr.</p>
+            </div>
+            
+            <div type="commentary">
+                <p n="1-2">The first two lines should come at the end; but due to non-availability of space they were inscribed above.</p>
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Reported in <bibl><ptr target="bib:ARIE1901-1902"/></bibl> (ARIE/1901-1902/B/1902/176).</p>
+                
+                <p>Edited in <bibl><ptr target="bib:SubrahmanyaAiyer1932_01"/></bibl> (<ref target="DHARMA_INSSIIv07p0i0803.xml">SII 7.803</ref>). Lines 3-7 only.</p>
+                
+                <p>Edited in <bibl><ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/></bibl> (PI 3) and translated in <bibl><ptr target="bib:Kuppusamy+al2010_01"/></bibl> (PI 4).</p>
+                <p>This digital edition by Emmanuel Francis, based on <bibl><ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/></bibl>. This translation adapted from <bibl><ptr target="bib:Kuppusamy+al2010_01"/></bibl>.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SubrahmanyaAiyer1932_01"/>
+                        <citedRange unit="page">408</citedRange>
+                        <citedRange unit="item">803</citedRange>
+                    </bibl>
+                    
+                    <bibl n="PI">
+                        <ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/>
+                        <citedRange unit="page">2</citedRange>
+                        <citedRange unit="item">2</citedRange>
+                    </bibl>
+                    
+                    <bibl n="PI">
+                        <ptr target="bib:Kuppusamy+al2010_01"/>
+                        <citedRange unit="page">1-2</citedRange>
+                        <citedRange unit="item">3</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    <bibl n="ARIE">
+                        <ptr target="bib:ARIE1901-1902"/>
+                        <citedRange unit="page">13</citedRange>
+                        <citedRange unit="appendix">B/1902</citedRange>
+                        <citedRange unit="item">176</citedRange>                        
+                    </bibl> 
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
