@@ -8,7 +8,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Mēlpoṉpētti, private house, year Āṅkīraca / Āṅgirasa</title>
+                <title>Mēlpoṉpētti, private house, year Āṅgirasa</title>
                 <respStmt>
                     <resp key="creator">author of digital edition</resp>
                     <persName ref="part:emfr">
@@ -28,7 +28,7 @@
                 <msDesc>
                     <msIdentifier><repository>as per external metadata</repository></msIdentifier>
                     <msContents>
-                        <summary>On the steps of a private house. Probably a hero stone in reuse.</summary>
+                        <summary>On the steps of a private house. Probably a hero stone in reuse. Ca 18th century CE.</summary>
                     </msContents>
                     <physDesc>
                         <handDesc>
@@ -56,9 +56,33 @@
                 </p>
                 
                 <p>
-                    <lb n="2"/><hi rend="grantha">śrī</hi>-maturāyac <gap reason="lost" quantity="3" unit="character"/> ruvar Ayyaṉ k
-                    <lb n="3" break="no"/>āriyattuke <gap reason="lost" quantity="3" unit="character"/> tavataraiyar
-                    <lb n="4"/>kōṭṭu-c-cēri paṭ=taṇavar ...
+                    <lb n="2"/><hi rend="grantha">śrī</hi>-maturāyaca <gap reason="lost" quantity="3" unit="character"/> ruvar Ayyaṉ k
+                    <lb n="3" break="no"/>āriyattukē <gap reason="lost" quantity="3" unit="character"/> tavataraiyar
+                    <lb n="4"/>kōṭṭu-c-cēri paṭ=taṇavar ceṅ
+                    <lb n="5" break="no"/>kaṇaccet=ti Ēṟaiyacceṭ=ti Ā
+                    <lb n="6" break="no"/>latt-uṭaiya nampi Aṟam<supplied reason="omitted">va</supplied>ḷatta
+                    <lb n="7"/>nampi Uḷpaṭ=ṭāṟku kuṭutta ca
+                    <lb n="8" break="no"/>ṟuva-māṉiyappaṭṭaiyam
+                </p>
+                <p>                    
+                    <lb n="9"/>Inta Ūr-p paṭ=ṭaṇaccēri varu
+                    <lb n="10" break="no"/><hi rend="grantha">ṣa</hi>m Oṉṟuk=ku Ayyaṉ kaṭṭaḷai
+                    <lb n="11"/>poṉ Aṟupatu
+                </p>
+                <p>
+                    Inta-k kaṭ=ṭaḷai
+                    <lb n="12"/>Iṭ=ṭa<supplied reason="omitted">ti</supplied>l tarum poṉ Aṟupatukku
+                    <lb n="13" break="no"/>ḷḷē Inta Ūril paravai mīṉu
+                    <lb n="14" break="no"/><unclear>m</unclear> paṭ=ṭaṇaccēri <gap reason="lost" quantity="4" unit="character"/> ttuṭa<choice><orig>n</orig><reg>ṉ</reg></choice>ē ce
+                    <lb n="15" break="no"/><unclear>r</unclear>ntapaṭiyālē <unclear>nā</unclear>ḷatu mutal canti
+                    <lb n="16" break="no"/><unclear>r</unclear>ātittavaraiyum kōṭṭu-c-cēri paravai
+                    <lb n="17"/>mīṉ Uḷpaṭa paṭ=ṭaṇavarē Āṉu
+                    <lb n="18" break="no"/>pavittu-k koḷḷavum
+                </p>
+                <p>
+                    y-inta mā<choice><orig>n</orig><reg>ṉ</reg></choice>i
+                    <lb n="19" break="no"/>yattai Iyātoruva <gap reason="lost" quantity="3" unit="character"/>
+                    <lb n="20"/>Aḻittavaṉ
                 </p>
                 
             </div>
@@ -68,11 +92,17 @@
             </div>
             
             <div type="translation" source="bib:Kuppusamy+al2010_01">
-                
+                <p n="1">In the year Āṅkīraca,<note>Sanskrit Āṅgīrasa = Āṅgirasa.</note> on the 10th day of Vaiyyāci.</p>
+                <p n="2-8">The all free document given by <gap reason="lost"/> tavataraiyar, the manager of śrī-Maturāyaca <gap reason="lost"/> ruvar Ayyaṉ to Ceṅkaṇa-c-ceṭṭi, Ēṟaiya-c-ceṭṭi, Ālattuṭṭaiya Nampi and Aṟamvaḷatta Nampi, the <foreign>paṭṭaṇavar</foreign> of Kōṭṭuccēri <supplied reason="subaudible">is as follows</supplied>.</p>
+                <p n="9-11">The amount of tax fixed by Ayyaṉ for the Paṭṭaṇa-c-cēri of this village is sixty gold
+<supplied reason="subaudible">coins</supplied>.</p>
+                <p n="11-18">Since the sea fish and <gap reason="lost"/> are inclusive in this sixty gold <supplied reason="subaudible">coins</supplied> which is accrued in this order from this day onwards, let the <foreign>paṭṭaṇavar</foreign> <supplied reason="explanation">fishermen</supplied> themselves enjoy the benefits including the sea fish in Kōṭṭu-c-cēri.</p>
+                <p n="18-20">
+                    Anyone who harmed this gift</p>
             </div>
             
             <div type="commentary">
-                
+                <p n="20">Incomplete or unfinished inscription.</p>
             </div>
             
             <div type="bibliography">
