@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pākūr / Vākūr / Bahur, Tirumūlanātar temple, time of Kaṉṉaradeva, year 22</title>
+                <respStmt>
+                    <resp key="creator">author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+                <funder>European Research Council (ERC), grant agreement no 809994</funder></titleStmt>
+            <publicationStmt>
+                <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+                <pubPlace>Paris</pubPlace>
+                <idno type="filename">DHARMA_INSPondicherry00002.xml</idno>
+                <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+                <date from="2019" to="2026">2019-2026</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>as per external metadata</repository></msIdentifier>
+                    <msContents>
+                        <summary><foreign>Ardhamaṇḍapa</foreign>, south wall. Kaṉṉaradeva = Kṛṣṇa III Rāṣṭrakūṭa, RY 22 = 961 CE. </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p></p>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="part:reda" when="2026-10-26" status="draft">Creation of the file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <ab>		
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi>
+                </ab>
+                
+                <p>
+                    kaṉṉara-tēvarkku yāṇṭu <num value="22">2 <g type="numeral">10</g> 2</num><g ref="sym:dash" type="punctuation">.</g>Āvatu
+                </p>
+                
+                <p>                    
+                    <lb n="2"/>vākūr <hi rend="grantha">mahāsabhai</hi>yōm Ā<hi rend="grantha">dhi</hi>rā<hi rend="grantha">ja</hi>maṅka<hi rend="grantha">lya</hi>purattu <hi rend="grantha">vyā</hi>pā
+                    <lb n="3" break="no"/>ritīraṉ murukaṉukku Oṭṭikkuṭutta paric’ āvatu
+                </p>
+                
+                <p>
+                    Ivv-ūr teṉ
+                    <lb n="4" break="no"/>piṭākai compiḷipākkattu Oṭṭaṅkollaiyil <hi rend="grantha">sabhai</hi>yōm
+                    <lb n="5"/>pakkal Iṟaiyili-y-āka vilai koṇṭu Ivv-ūr Iruntu <hi rend="grantha">vyākhyā</hi>nañ cey
+                    <lb n="6" break="no"/>yum <hi rend="grantha">bha</hi>ṭṭa<supplied reason="omitted">r</supplied>kaḷukku <hi rend="grantha">bha</hi>ṭṭa<hi rend="grantha">vṛ</hi>t=tiyāka vaitta karuttu-c-ceṟuvu nūṟum <hi rend="grantha">candrā</hi>ti
+                    <lb n="7" break="no"/><hi rend="grantha">tya</hi>val <hi rend="grantha">bha</hi>ṭṭa<hi rend="grantha">vṛ</hi>t=ti y-āvat’ ākavum
+                </p>
+                <p>
+                    In-nilañ cuṭṭi Eppērppaṭṭa
+                    <lb n="8"/>Ūr-iṭu varippāṭuṅ kāṭṭa-p peṟātōm ākavum
+                </p>
+                <p>
+                    I<hi rend="grantha">dhanma</hi>m <hi rend="grantha">sabhai</hi>yō
+                    <lb n="9" break="no"/>m niṟutti-k kuṭuppat' ākavum
+                </p>
+                <p>
+                    Itu Iṟakkuvataṟku-p paṟṟāṉ-āṉa Ivaṉ Āṟu
+                    <lb n="10"/>pattu muntuṟṟārē <hi rend="grantha">dhanmāsa</hi> mutalāka mun=tuṟṟa kovukkē taravukkē vā<hi rend="grantha">si</hi>ttu
+                    <lb n="11"/>taṇṭam Iṭa-p peṟuvatāka <hi rend="check">vuppaṭṭum</hi> I<hi rend="grantha">dharma</hi>m niṟutti-k kuṭuppat' ākavum
+                </p>
+                <p>
+                    Ip
+                    <lb n="12" break="no"/>pparic' oṭṭi-k kkuṭuttōm vākūr <hi rend="grantha">sabhai</hi>yōm paṇiyāl <hi rend="grantha">madhyasta</hi>ṉ Āyira
+                    <lb n="13" break="no"/>ttaiññūṟṟuvaṉ eḻuttu <supplied reason="subaudible"><g ref="sym:doubleBar" type="punctuation">.</g></supplied>
+                </p>
+            </div>
+            
+            <div type="apparatus">
+                <listApp>
+                    <app loc="11">
+                        <lem>vuppaṭṭum</lem>
+                        <rdg source="bib:SubrahmanyaAiyer1932_01">vu<supplied reason="omitted">ṭ</supplied>ppaṭṭum</rdg>
+                        <rdg source="bib:Kuppusamy+Vijayavenugopal2006_01">vuppaṭṭum</rdg>
+                    </app>
+                    <app loc="13">
+                        <lem source="bib:Kuppusamy+Vijayavenugopal2006_01">°ñūṟṟuvaṉ</lem>
+                        <rdg source="bib:SubrahmanyaAiyer1932_01">nūṟṟuvaṉ</rdg>
+                    </app>
+                </listApp>
+            </div>
+            
+            <div type="translation" source="bib:Kuppusamy+al2010_01">
+                <p>Hail! Prosperity!</p>
+                <p>22nd year <supplied reason="subaudible">of the reign</supplied> of Kaṉṉara-tēvar.</p> 
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Reported in <bibl><ptr target="bib:ARIE1901-1902"/></bibl> (ARIE/1901-1902/B/1902/175).</p>
+                
+                <p>Edited in <bibl><ptr target="bib:SubrahmanyaAiyer1932_01"/></bibl> (<ref target="DHARMA_INSSIIv07p0i0802.xml">SII 7.802</ref>). First few letters of each line missing.</p>
+                
+                <p>Edited in <bibl><ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/></bibl> (PI 2) and translated in <bibl><ptr target="bib:Kuppusamy+al2010_01"/></bibl> (PI 2).</p>
+                <p>This digital edition by Emmanuel Francis, based on <bibl><ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/></bibl>. This translation adapted from <bibl><ptr target="bib:Kuppusamy+al2010_01"/></bibl>.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SubrahmanyaAiyer1932_01"/>
+                        <citedRange unit="page">408</citedRange>
+                        <citedRange unit="item">802</citedRange>
+                    </bibl>
+                    
+                    <bibl n="PI">
+                        <ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/>
+                        <citedRange unit="page">1-2</citedRange>
+                        <citedRange unit="item">2</citedRange>
+                    </bibl>
+                    
+                    <bibl n="PI">
+                        <ptr target="bib:Kuppusamy+al2010_01"/>
+                        <citedRange unit="page">1</citedRange>
+                        <citedRange unit="item">2</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    <bibl n="ARIE">
+                        <ptr target="bib:ARIE1901-1902"/>
+                        <citedRange unit="page">13</citedRange>
+                        <citedRange unit="appendix">B/1902</citedRange>
+                        <citedRange unit="item">175</citedRange>                        
+                    </bibl> 
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
