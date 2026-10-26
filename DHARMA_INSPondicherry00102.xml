@@ -49,7 +49,7 @@
         
         <body>
             
-            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:83215">
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
                 
                 <ab>		
                     <lb n="1"/><hi rend="grantha">svasti śrī</hi>
@@ -142,8 +142,7 @@
                         <item>two <foreign>tūṇi</foreign>s and one <foreign>kuṟuṇi</foreign> of paddy for one person who gives exposition to grammar <supplied reason="explanation"><foreign>viyākaraṇam</foreign> = <foreign>vyākaraṇa</foreign></supplied>,</item>
                         <item><supplied reason="omitted">one <foreign>tūṇi</foreign> and one <foreign>patakku</foreign> of paddy for on person who studies Rūpāvātara <supplied reason="explanation"><foreign>Ur<choice><orig>u</orig><reg>ū</reg></choice>pāvatāram</foreign></supplied>,</supplied></item>
                         <item>two <foreign>tūṇi</foreign>s and one <foreign>kuṟuṇi</foreign> of paddy who reads Mahābhārata <supplied reason="explanation"><foreign>mā-pāratam</foreign></supplied> and śrī-Rāmāyaṇa <supplied reason="explanation"><foreign><hi rend="grantha">śr<choice><orig>i</orig><reg>ī</reg></choice>-rā</hi>māyaṇam</foreign></supplied>,</item>
-                        <item>one <foreign>tūṇi</foreign> of paddy for one person who teaches śrī-Manu-śāstra <supplied reason="explanation"><foreign><hi rend="grantha">śr<choice><orig>i</orig><reg>ī</reg></choice></hi>-maṉucāttiram
-                        </foreign></supplied>,</item>
+                        <item>one <foreign>tūṇi</foreign> of paddy for one person who teaches śrī-Manu-śāstra <supplied reason="explanation"><foreign><hi rend="grantha">śr<choice><orig>i</orig><reg>ī</reg></choice></hi>-maṉucāttiram</foreign></supplied>,</item>
                         <item>three <foreign>kuṟuṇi</foreign>s of paddy for one person who teaches śrī-Vaikhānasa,</item>
                         <item>60 people who study R̥g-veda <supplied reason="explanation"><foreign>Irukku-vētam</foreign></supplied>and Apūrva <supplied reason="explanation"><foreign>Apūrvvam</foreign></supplied>,</item>
                         <item>60 people who study Yajurveda <supplied reason="explanation"><foreign>ya<hi rend="grantha">jurve</hi>tam</foreign></supplied> and Apūrva,</item>
@@ -151,7 +150,7 @@
                         <item>50 people who study Talavukārasāma <supplied reason="explanation"><foreign>talavukāra<hi rend="grantha">sā</hi>mam</foreign></supplied>, Apūrva, Vājasaneya <supplied reason="explanation"><foreign>va<hi rend="grantha">jasa</hi>nēyam</foreign></supplied>, Baudhāyanasūtra <supplied reason="explanation"><foreign><hi rend="grantha">bo</hi>tāniya-<hi rend="grantha">sū</hi>ttiram</foreign></supplied>, Sattūjātasūtra <supplied reason="explanation"><foreign><hi rend="grantha">sattūṣāṭa-sū</hi>ttiram</foreign></supplied>,</item>
                     </list>
                     thus 11 <foreign>kalam</foreign>s and two <foreign>tūṇi</foreign>s and one <foreign>patakku</foreign> of paddy for 190 people,
-                    at the rate of six nāḻis of paddy per day per person.
+                    at the rate of six <foreign>nāḻi</foreign>s of paddy per day per person.
                 </p>
             </div>
             
