@@ -56,19 +56,19 @@
                 </ab>
                 
                 <p>
-                    kaṉṉara-tēvarkku yāṇṭu <num value="22">2 <g type="numeral">10</g> 2</num><g ref="sym:dash" type="punctuation">.</g>Āvatu
+                    kaṉṉara-tēvarkku yāṇṭu <num value="22">2 <g type="numeral">10</g> 2</num>-Āvatu
                 </p>
                 
                 <p>                    
-                    <lb n="2"/>vākūr <hi rend="grantha">mahāsabhai</hi>yōm Ā<hi rend="grantha">dhi</hi>rā<hi rend="grantha">ja</hi>maṅka<hi rend="grantha">lya</hi>purattu <hi rend="grantha">vyā</hi>pā
-                    <lb n="3" break="no"/>ritīraṉ murukaṉukku Oṭṭikkuṭutta paric’ āvatu
+                    <lb n="2"/>vākūr <hi rend="grantha">mahāsabhai</hi>yōm Ā<hi rend="grantha">dhi</hi>rā<hi rend="grantha">ja</hi>maṅka<hi rend="grantha">lya</hi>-purattu <hi rend="grantha">vyā</hi>pā
+                    <lb n="3" break="no"/>ri tīraṉ murukaṉukku Oṭṭi-k kuṭutta paric’ āvatu
                 </p>
                 
                 <p>
                     Ivv-ūr teṉ
-                    <lb n="4" break="no"/>piṭākai compiḷipākkattu Oṭṭaṅkollaiyil <hi rend="grantha">sabhai</hi>yōm
+                    <lb n="4" break="no"/>-piṭākai compiḷipākkattu Oṭṭaṅkollaiyil <hi rend="grantha">sabhai</hi>yōm
                     <lb n="5"/>pakkal Iṟaiyili-y-āka vilai koṇṭu Ivv-ūr Iruntu <hi rend="grantha">vyākhyā</hi>nañ cey
-                    <lb n="6" break="no"/>yum <hi rend="grantha">bha</hi>ṭṭa<supplied reason="omitted">r</supplied>kaḷukku <hi rend="grantha">bha</hi>ṭṭa<hi rend="grantha">vṛ</hi>t=tiyāka vaitta karuttu-c-ceṟuvu nūṟum <hi rend="grantha">candrā</hi>ti
+                    <lb n="6" break="no"/>yum <hi rend="grantha">bha</hi>ṭṭa<supplied reason="omitted">r</supplied>kaḷukku <hi rend="grantha">bha</hi>ṭṭa-<hi rend="grantha">vṛ</hi>t=tiyāka vaitta karuttu-c-ceṟuvu nūṟum <hi rend="grantha">candrā</hi>ti
                     <lb n="7" break="no"/><hi rend="grantha">tya</hi>val <hi rend="grantha">bha</hi>ṭṭa<hi rend="grantha">vṛ</hi>t=ti y-āvat’ ākavum
                 </p>
                 <p>
@@ -77,17 +77,20 @@
                 </p>
                 <p>
                     I<hi rend="grantha">dhanma</hi>m <hi rend="grantha">sabhai</hi>yō
-                    <lb n="9" break="no"/>m niṟutti-k kuṭuppat' ākavum
+                    <lb n="9" break="no"/>m niṟutti-k kuṭuppat’ ākavum
                 </p>
                 <p>
-                    Itu Iṟakkuvataṟku-p paṟṟāṉ-āṉa Ivaṉ Āṟu
-                    <lb n="10"/>pattu muntuṟṟārē <hi rend="grantha">dhanmāsa</hi> mutalāka mun=tuṟṟa kovukkē taravukkē vā<hi rend="grantha">si</hi>ttu
-                    <lb n="11"/>taṇṭam Iṭa-p peṟuvatāka <hi rend="check">vuppaṭṭum</hi> I<hi rend="grantha">dharma</hi>m niṟutti-k kuṭuppat' ākavum
+                    Itu Iṟakkuvataṟku-p paṟṟāṉ-āṉa Ivaṉ aṟu
+                    <lb n="10" break="no"/>pattu muntuṟṟārē <hi rend="grantha">dhanmāsa</hi> mutalāka mun=tuṟṟa kovukkē taravukkē vā<hi rend="grantha">si</hi>ttu
+                    <lb n="11"/>taṇṭam Iṭa-p peṟuvat’ āka <hi rend="check">vuppaṭṭum</hi> I<hi rend="grantha">dharma</hi>m niṟutti-k kuṭuppat’ ākavum
                 </p>
                 <p>
                     Ip
-                    <lb n="12" break="no"/>pparic' oṭṭi-k kkuṭuttōm vākūr <hi rend="grantha">sabhai</hi>yōm paṇiyāl <hi rend="grantha">madhyasta</hi>ṉ Āyira
-                    <lb n="13" break="no"/>ttaiññūṟṟuvaṉ eḻuttu <supplied reason="subaudible"><g ref="sym:doubleBar" type="punctuation">.</g></supplied>
+                    <lb n="12" break="no"/>-paric’ oṭṭi-k kkuṭuttōm vākūr <hi rend="grantha">sabhai</hi>yōm
+                </p>
+                <p>
+                    paṇiyāl <hi rend="grantha">madhyasta</hi>ṉ Āyira
+                    <lb n="13" break="no"/>ttaiññūṟṟuvaṉ eḻuttu <supplied reason="subaudible"><g ref="sym:doubleBar" type="punctuation">.</g></supplied> 
                 </p>
             </div>
             
@@ -106,8 +109,18 @@
             </div>
             
             <div type="translation" source="bib:Kuppusamy+al2010_01">
-                <p>Hail! Prosperity!</p>
-                <p>22nd year <supplied reason="subaudible">of the reign</supplied> of Kaṉṉara-tēvar.</p> 
+                <p n="1">Hail! Prosperity!</p>
+                <p n="1">22nd year <supplied reason="subaudible">of the reign</supplied> of Kaṉṉara-tēvar.</p>
+                <p n="2-3">The manner in which we,
+                    the members of the great assembly of Vākūr granted, upon mutual consent, to Tīraṉ Murukaṉ, a
+                    merchant of Ātirājamaṅkalyapuram, is <supplied reason="subaudible">as follows</supplied>.</p>
+                <p n="3-7">
+                    Let <supplied reason="subaudible">the land</supplied> Karuttucceṟuvu one hundred<note>That is, the name of the land?</note> bought from us, the members of the assembly, tax-free, at Oṭṭaṅkollai in Compiḷipākkam, a southern hamlet of this village and endowed as the land for the <foreign>bhaṭṭa</foreign>s<note>That is, the Brahmins.</note> who live in this village and give exposition <supplied reason="subaudible">of the Vedas</supplied> be the land for the <foreign>bhaṭṭa</foreign>s <supplied reason="explanation"><foreign>bhaṭṭavṛtti</foreign></supplied> as long as the moon and the sun will last.</p>
+                <p n="7-8">We shall not show any village tax referring to this land.</p>
+                <p n="8-9">We shall maintain this donation.</p>
+                <p n="9-10">This donation shall be established provided that this person,<note>That is, Tīraṉ Murukaṉ.</note> who has the obligation to pay the tax, agrees that he shall be fined, by reading out <supplied reason="subaudible">the relevant portions</supplied> to the judge or the king/officer present <supplied reason="subaudible">if this donation’s conditions are violated</supplied>.</p>
+                <p n="11-12">We, the members of the assembly of Vākūr, have sanctioned <supplied reason="subaudible">this donation</supplied> in this manner upon mutual agreement.</p>
+                <p n="12-13">By order this is the writing of Āyirattaiññūṟṟuvaṉ, the accountant.</p>
             </div>
             
             <div type="commentary">
