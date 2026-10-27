@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pākūr / Vākūr / Bahur, Tirumūlanātar temple, time of Kaṉṉaradeva, year 22</title>
+                <respStmt>
+                    <resp key="creator">author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+                <funder>European Research Council (ERC), grant agreement no 809994</funder></titleStmt>
+            <publicationStmt>
+                <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+                <pubPlace>Paris</pubPlace>
+                <idno type="filename">DHARMA_INSPondicherry00004.xml</idno>
+                <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+                <date from="2019" to="2026">2019-2026</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>as per external metadata</repository></msIdentifier>
+                    <msContents>
+                        <summary>Central shrine, south wall. Kaṉṉaradeva = Kṛṣṇa III Rāṣṭrakūṭa, RY 22 = 961 CE. </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p></p>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="part:reda" when="2026-10-26" status="draft">Creation of the file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">śvasti śrī</hi>
+                </p>
+                <p>
+                    kaṉṉara-<unclear>tēvarkku yāṇ</unclear>
+                    <lb n="2" break="no"/>ṭu <num value="22">2 <g type="numeral">10</g> 2</num>
+                </p>
+                <p>vēcālippāṭi vaṭakarai vākūr-nā
+                    <lb n="3" break="no"/>ṭṭu maṉṟāṭikaḷē vākū<supplied reason="omitted">r</supplied> <hi rend="grantha"><choice><orig>śi</orig><reg>śrī</reg></choice></hi>mulaṭ<unclear>ṭā</unclear>ṉattu
+                    <lb n="4" break="no"/>-p perumāḷukku nāṅkaḷ vaiytta <hi rend="grantha">dha<choice><sic>t</sic><corr>n</corr></choice>ma</hi>
+                    <lb n="5" break="no"/>ṅ
+                </p>
+                <p>
+                    kaṭṭil ēṟappōm pōtu Oru Āṭu ku
+                    <lb n="6" break="no"/>ṭuttu-k kaṭṭil ēṟuvōm ākavu<supplied reason="omitted">m</supplied>
+                </p>
+                <p>
+                    <unclear>puṟa</unclear>nā
+                    <lb n="7" break="no"/>ṭṭi niṉṟu vantu Iññāṭṭiṟ kaṭṭi
+                    <lb n="8" break="no"/>l ēṟu maṉṟāṭi vacam oru Āṭu kuṭuppa
+                    <lb n="9" break="no"/>t' ākavuṅ
+                </p>
+                <p>
+                    kuṭātu tiṟampi<unclear>ṉō</unclear>mai-k ka
+                    <lb n="10" break="no"/>ṇa-p-peru-makkaḷun tēvaraṭiyārum ira
+                    <lb n="11" break="no"/>ṇṭ' āṭu piṭittu-k koḷḷa-p-peṟu
+                    <lb n="12" break="no"/>vat' ākavum
+                </p>
+                <p>
+                    Oṭṭi-k kuṭuttōm iñ-ñā<unclear>ṭ</unclear>
+                    <lb n="13" break="no"/><unclear>ṭu</unclear> maṉṟāṭika<choice><orig>ḷḷ</orig><reg>ḷ</reg></choice>ōm
+                </p>
+                
+                <p>                    
+                    It-<hi rend="grantha">dha<supplied reason="omitted">r</supplied>mma</hi>m <hi rend="grantha"><choice><orig>ś</orig><reg>c</reg></choice>a</hi>
+                    <lb n="14" break="no"/><hi rend="grantha">ndrā</hi>tit=tavat niṟpat' āka niṟutti-k kuṭu
+                    <lb n="15" break="no"/>ppōm āṉō<unclear>m i</unclear>ññā<unclear>ṭu</unclear> mataku ceykiṉ
+                    <lb n="16" break="no"/>ṟa matakarōm
+                </p>
+                <ab>
+                    <hi rend="grantha">śrī</hi> <g ref="sym:bullet-middle-hollow" type="symbol">*</g><g ref="sym:bullet-middle-hollow" type="symbol">*</g><g ref="sym:bullet-middle-hollow" type="symbol">*</g><g ref="sym:bullet-middle-hollow" type="symbol">*</g><g ref="sym:dash-long" type="punctuation">.</g>
+                </ab>
+                
+            </div>
+            
+            <div type="apparatus">
+                <listApp>
+                    <app loc="0">
+                        <lem source="bib:Kuppusamy+Vijayavenugopal2006_01"></lem>
+                        <rdg source="bib:SubrahmanyaAiyer1932_01"></rdg>
+                    </app>     
+                    
+                </listApp>
+            </div>
+            
+            <div type="translation" source="bib:Kuppusamy+al2010_01">
+                <p n="1">Hail! Prosperity!</p>
+                <p n="1">Year 22 <supplied reason="subaudible">of the reign</supplied> of Kaṉṉara-tēvar.</p>
+                <p n="2-5">The donation that we, the shepherds of Vākūr-nāṭu on the Northern bank of Vēcālippāṭi set up for the Lord of śrī-Mūlastāṉam of Vākūr <supplied reason="subaudible">is as follows</supplied>.</p>
+                <p n="5-6">At the occasion of climbing the cot<note>A ritual during the marriage.</note> we shall give a sheep <supplied reason="subaudible">to the temple on behalf of the shepherd</supplied> and climb the cot.</p>
+                <p n="6-9">We shall give a sheep to the shepherd who migrates from other country and climbs the cot in this <foreign>nāṭu</foreign>.</p>
+                <p n="10-12">If we violate <supplied reason="subaudible">this prescription</supplied>, the important members of the <supplied reason="subaudible">village administrative</supplied> group and the temple servants <supplied reason="subaudible">ancers</supplied> shall seize two <supplied reason="subaudible">of our</supplied> sheep.</p>
+                <p n="12-13">We, the shepherds of this <foreign>nāṭu</foreign>, have <supplied reason="subaudible">thus</supplied> ordained upon mutual consent.</p>
+                <p n="13-16">We, who do the work of the sluice <foreign>mataku</foreign><note>That is, sluice openers.</note> of this <foreign>nāṭu</foreign>, shall maintain this donation so that it exists as long as the moon and the sun will last.</p>
+                <p n="16">Prosperity.</p>
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Reported in <bibl><ptr target="bib:ARIE1901-1902"/></bibl> (ARIE/1901-1902/B/1902/177).</p>
+                
+                <p>Edited in <bibl><ptr target="bib:SubrahmanyaAiyer1932_01"/></bibl> (<ref target="DHARMA_INSSIIv07p0i0804.xml">SII 7.804</ref>).</p>
+                
+                <p>Edited in <bibl><ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/></bibl> (PI 4) and translated in <bibl><ptr target="bib:Kuppusamy+al2010_01"/></bibl> (PI 4).</p>
+                <p>This digital edition by Emmanuel Francis, based on <bibl><ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/></bibl>. This translation adapted from <bibl><ptr target="bib:Kuppusamy+al2010_01"/></bibl> and changed (lines 10-13).</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SubrahmanyaAiyer1932_01"/>
+                        <citedRange unit="page">409</citedRange>
+                        <citedRange unit="item">804</citedRange>
+                    </bibl>
+                    
+                    <bibl n="PI">
+                        <ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/>
+                        <citedRange unit="page">3-4</citedRange>
+                        <citedRange unit="item">4</citedRange>
+                    </bibl>
+                    
+                    <bibl n="PI">
+                        <ptr target="bib:Kuppusamy+al2010_01"/>
+                        <citedRange unit="page">2</citedRange>
+                        <citedRange unit="item">4</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    <bibl n="ARIE">
+                        <ptr target="bib:ARIE1901-1902"/>
+                        <citedRange unit="page">13</citedRange>
+                        <citedRange unit="appendix">B/1902</citedRange>
+                        <citedRange unit="item">177</citedRange>                        
+                    </bibl> 
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
