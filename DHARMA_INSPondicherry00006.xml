@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pākūr / Vākūr / Bahur, Tirumūlanātar temple, time of Kaṉṉaradeva, year 22</title>
+                <respStmt>
+                    <resp key="creator">author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+                <funder>European Research Council (ERC), grant agreement no 809994</funder></titleStmt>
+            <publicationStmt>
+                <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+                <pubPlace>Paris</pubPlace>
+                <idno type="filename">DHARMA_INSPondicherry00006.xml</idno>
+                <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+                <date from="2019" to="2026">2019-2026</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>as per external metadata</repository></msIdentifier>
+                    <msContents>
+                        <summary><foreign>Ardhamaṇḍapa</foreign>, east wall. Kaṉṉaradeva = Kṛṣṇa III Rāṣṭrakūṭa, RY 24 = 963 CE.</summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p></p>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="part:reda" when="2026-10-27" status="draft">Creation of the file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">śrī</hi>-kaṉṉara-<hi rend="grantha">de</hi>varkku yāṇṭu <num value="24">2 <g type="numeral">10</g> 4</num>-vatu
+                </p>
+                <p>
+                    vā
+                    <lb n="2" break="no"/>kūr <hi rend="grantha">śrī</hi>-m<choice><orig>u</orig><reg>ū</reg></choice>la<hi rend="grantha">stā</hi>ṉattu-p <hi rend="grantha">m<choice><sic>ā</sic><corr>a</corr></choice>hāde</hi>vark
+                    <lb n="3" break="no"/>ku ka<unclear>rai</unclear> Uṭaiyāṉ kaliyaṉ maṉṟāṭi
+                    <lb n="4"/>Aiyya<choice><orig>ṉṉ</orig><reg>ṉ</reg></choice>-ākiya Irā<hi rend="grantha">jā</hi>ti<supplied reason="omitted">t</supplied>ta-p-pēr-araiya
+                    <lb n="5" break="no"/>ṉ tiru-Uṇṇāḷikaiyil muṉpil ma
+                    <lb n="6" break="no"/>ṇṭapattil mēl-kkaṭain=ta Oḻukil
+                    <lb n="7"/>tūṇ Iraṇṭum Araikkāl Iraṇṭu<supplied reason="omitted">m</supplied>
+                    <lb n="8"/>Uttiramum Ivv-oḻukukku vēṇṭuva
+                    <lb n="9" break="no"/>ṉa ellāñ ce<supplied reason="omitted">y</supplied>tu vaittāṉ
+                </p>
+                <p>
+                    Itu cantirāti<supplied reason="omitted">t</supplied>taval <g ref="sym:flourish-taperOut" type="punctuation">.</g>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                <listApp>
+                    <app loc="0">
+                        <lem source="bib:Kuppusamy+Vijayavenugopal2006_01"></lem>
+                    </app>     
+                    
+                </listApp>
+            </div>
+            
+            <div type="translation" source="bib:Kuppusamy+al2010_01">
+                <p n="1">24th year <supplied reason="subaudible">of the reign</supplied> of śrī-Kaṉṉara-tēvar.</p>
+                <p n="1-9"> Kaliyaṉ Maṉṟāṭi Aiyaṉ alias Irājātittappēraraiyaṉ, an official of Karai<note>A village.</note> has provided for making two pillars, two half pillars and a beam and did all that are necessary for this row in the western side of the hall, in front of the sanctum sanctorum, for the great Lord of śrī-Mūlastāṉam of Vākūr.</p>
+                <p n="10">This is to last as long as the moon and the
+sun will last.</p>
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Not reported in ARIE.</p>
+                
+                <p>Edited in <bibl><ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/></bibl> (PI 6) and translated in <bibl><ptr target="bib:Kuppusamy+al2010_01"/></bibl> (PI 6).</p>
+                <p>This digital edition by Emmanuel Francis, based on <bibl><ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/></bibl>. This translation adapted from <bibl><ptr target="bib:Kuppusamy+al2010_01"/></bibl>.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="PI">
+                        <ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/>
+                        <citedRange unit="page">4-5</citedRange>
+                        <citedRange unit="item">6</citedRange>
+                    </bibl>
+                    
+                    <bibl n="PI">
+                        <ptr target="bib:Kuppusamy+al2010_01"/>
+                        <citedRange unit="page">2</citedRange>
+                        <citedRange unit="item">6</citedRange>
+                    </bibl>
+                    
+                    <!--Add Swaminathan-->
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
