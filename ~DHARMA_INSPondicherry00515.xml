@@ -28,7 +28,7 @@
                 <msDesc>
                     <msIdentifier><repository>as per external metadata</repository></msIdentifier>
                     <msContents>
-                        <summary>North wall. Fragment of the meykkīrtti of Kulottuṅga I Cōḻa (r. 1070-1120 CE).</summary>
+                        <summary>North wall. Fragment of the <foreign>meykkīrtti</foreign> (<foreign>pukāḻ cūḻnta puṇari</foreign>) of Kulottuṅga I Cōḻa (r. 1070-1120 CE).</summary>
                     </msContents>
                     <physDesc>
                         <handDesc>
@@ -53,7 +53,38 @@
                 <p>		
                     <lb n="1"/>
                     <gap reason="lost"/>
+                    
+                    <lb n="2"/>
+                    <gap reason="lost"/>
+                    neḷippa Iḻina <gap reason="lost" quantity="3" unit="character"/> kaluñ cuḻaṉṟu
+                    <gap reason="lost"/>
+                    
+                    <lb n="3"/>
+                    <gap reason="lost"/>
                     ...
+                    <gap reason="lost"/>
+                    
+                    <lb n="4"/>
+                    <gap reason="lost"/>
+                    ...
+                    <gap reason="lost"/>
+                    
+                    <lb n="5"/>
+                    <gap reason="lost"/>
+                    ...
+                    <gap reason="lost"/>
+                    
+                    <lb n="6"/>
+                    <gap reason="lost"/>
+                    ...
+                    <gap reason="lost"/>
+                    
+                    <lb n="7"/>
+                    <gap reason="lost"/>
+                    <unclear>Īṇṭi</unclear>ya pukaḻoṭu pāṇṭi-maṇṭalaṅ
+                    <gap reason="lost"/>
+                    
+                    <lb n="8"/>
                     <gap reason="lost"/>
                 </p>
                 
@@ -63,12 +94,12 @@
                 
             </div>
             
-            <div type="translation" source="bib:Kuppusamy+al2010_01">
-                <p n="1"></p>
+            <div type="translation">
+                
             </div>
             
             <div type="commentary">
-                
+                <p n="1, 8">Damaged.</p>
             </div>
             
             <div type="bibliography">
