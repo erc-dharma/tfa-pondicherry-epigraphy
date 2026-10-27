@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pākūr / Vākūr / Bahur, Tirumūlanātar temple, time of Kaṉṉaradeva, year 22</title>
+                <respStmt>
+                    <resp key="creator">author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+                <funder>European Research Council (ERC), grant agreement no 809994</funder></titleStmt>
+            <publicationStmt>
+                <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+                <pubPlace>Paris</pubPlace>
+                <idno type="filename">DHARMA_INSPondicherry00005.xml</idno>
+                <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+                <date from="2019" to="2026">2019-2026</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>as per external metadata</repository></msIdentifier>
+                    <msContents>
+                        <summary><foreign>Ardhamaṇḍapa</foreign>, east wall. Kaṉṉaradeva = Kṛṣṇa III Rāṣṭrakūṭa, RY 24 = 963 CE.</summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p></p>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="part:reda" when="2026-10-27" status="draft">Creation of the file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">śvasti </hi>
+                </p>
+                <p>
+                    śrī-kaṉṉara-tēva<supplied reason="omitted">r</supplied>kku yā
+                    <lb n="2" break="no"/>ṇṭu <num value="24">2 <g type="numeral">10</g> 4</num>-vatu
+                </p>
+                <p>vākūr <hi rend="grantha"><choice><orig>śi</orig><reg>śrī</reg></choice></hi>-m<choice><orig>u</orig><reg>ū</reg></choice>la<hi rend="grantha">stā</hi>ṉa
+                    
+                    <lb n="3" break="no"/>ttu-p <hi rend="grantha">mahāde</hi>varkku tiruvā<supplied reason="omitted">y</supplied>ppāṭi Iru
+                    <lb n="4" break="no"/>kku<supplied reason="omitted">m</supplied> maṉṟāṭi kōṉūr nakkaṉ vaitta na
+                    <lb n="5" break="no"/>ntā-viḷakku Arai<surplus>vi</surplus>kku vaitta Āṭu
+                    <lb n="6"/>nāppatt’ āṟu
+                </p>
+                <p>
+                    Ivai ca<hi rend="grantha">n<choice><orig>t</orig><reg>d</reg></choice>ra</hi>ti<supplied reason="omitted">t</supplied>taval
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                <listApp>
+                    <app loc="0">
+                        <lem source="bib:Kuppusamy+Vijayavenugopal2006_01"></lem>
+                    </app>     
+                    
+                </listApp>
+            </div>
+            
+            <div type="translation" source="bib:Kuppusamy+al2010_01">
+                <p n="1">Hail!</p>
+                <p n="1-2">24th year of śrī-Kaṉṉara-tēvar.</p>
+                <p n="3-6">For the half perpetual lamp for the great Lord of śrī-Mūlastāṉam of Vākūr, donated by Nakkaṉ of Kōṉūr, a shepherd, who lives in Tiruvāy-p-pāṭi, the sheep endowed (for this) are fourty-six.</p>
+                <p n="6">This is to last till the moon and the sun will last.</p>
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Not reported in ARIE.</p>
+                
+                <p>Edited in <bibl><ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/></bibl> (PI 5) and translated in <bibl><ptr target="bib:Kuppusamy+al2010_01"/></bibl> (PI 5).</p>
+                <p>This digital edition by Emmanuel Francis, based on <bibl><ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/></bibl>. This translation adapted from <bibl><ptr target="bib:Kuppusamy+al2010_01"/></bibl>.</p>
+                
+                <listBibl type="primary">
+                                       
+                    <bibl n="PI">
+                        <ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/>
+                        <citedRange unit="page">4</citedRange>
+                        <citedRange unit="item">5</citedRange>
+                    </bibl>
+                    
+                    <bibl n="PI">
+                        <ptr target="bib:Kuppusamy+al2010_01"/>
+                        <citedRange unit="page">2</citedRange>
+                        <citedRange unit="item">5</citedRange>
+                    </bibl>
+                    
+                    <!--Add Swaminathan-->
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
