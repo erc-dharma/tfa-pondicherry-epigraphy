@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Tirumalairāyaṉpaṭṭiṉam, Jaṭāyupurīśvara temple, time of Virupākṣa, year Kara</title>
+                <respStmt>
+                    <resp key="creator">author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+                <funder>European Research Council (ERC), grant agreement no 809994</funder></titleStmt>
+            <publicationStmt>
+                <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+                <pubPlace>Paris</pubPlace>
+                <idno type="filename">DHARMA_INSPondicherry00530.xml</idno>
+                <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+                <date from="2019" to="2026">2019-2026</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>as per external metadata</repository></msIdentifier>
+                    <msContents>
+                        <summary>Central shrine, north and west wall. Virupākṣa II, 1411 CE.</summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p></p>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="part:reda" when="2026-10-26" status="draft">Creation of the file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                <ab>		
+                    <lb n="1"/><hi rend="grantha">svasti </hi>
+                </ab>
+                
+                <p>
+                    <hi rend="grantha">śrīma</hi>ṉ <hi rend="grantha">māhā</hi>maṇṭal<choice><orig>i</orig><reg>ī</reg></choice>curaṉ kaṇṭa nāṭu koṇṭu koṇṭa nāṭu kuṭātāṉ pūṟuva-te<hi rend="grantha">kṣa</hi>ṇa-pa<unclear>cca</unclear>m <gap reason="lost" quantity="4" unit="character"/> <unclear>ca</unclear>tuṟu-camu<hi rend="grantha">drā</hi>tipati <gap reason="lost" quantity="4" unit="character"/>
+                    <lb n="2"/>virupā<hi rend="grantha">kṣa</hi>-tēva-mā<unclear>hā</unclear>-Irāyar <hi rend="grantha">pra</hi>tivi <gap reason="lost" quantity="5" unit="character"/> kara saṅvatsarattu <hi rend="grantha">siṃha</hi>-nāyarru <hi rend="grantha">pū</hi>ṟuva-pa<hi rend="grantha">kṣa</hi>ttu <hi rend="grantha">deśa</hi>mi<unclear>yum</unclear> cukkila-vāramum peṟṟa <gap reason="lost" quantity="4" unit="character"/>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="translation" source="bib:Kuppusamy+al2010_01">
+                <p n="1">Hail!</p>
+                <p n="1-2">When the illustrious Lord of the great region, he who conquers what ever country he sees and he who shall not give the country he had conquered, the supreme Lord of the four oceans, Virupākṣa-tēva-mahā-irāyār ... on Friday, the tenth day of the bright fortnight of the month of Siṃha in the year ... Kara ...</p>
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Not reported in ARIE.</p>
+                
+                <p>Edited in <bibl><ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/></bibl> (PI 530) and translated in <bibl><ptr target="bib:Kuppusamy+al2010_01"/></bibl> (PI 530).</p>
+                <p>This digital edition by Emmanuel Francis, based on <bibl><ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/></bibl>. This translation adapted from <bibl><ptr target="bib:Kuppusamy+al2010_01"/></bibl>.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="PI">
+                        <ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/>
+                        <citedRange unit="page">513</citedRange>
+                        <citedRange unit="item">530</citedRange>
+                    </bibl>
+                    
+                    <bibl n="PI">
+                        <ptr target="bib:Kuppusamy+al2010_01"/>
+                        <citedRange unit="page">235</citedRange>
+                        <citedRange unit="item">530</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
