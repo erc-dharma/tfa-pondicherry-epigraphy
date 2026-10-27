@@ -28,7 +28,7 @@
                 <msDesc>
                     <msIdentifier><repository>as per external metadata</repository></msIdentifier>
                     <msContents>
-                        <summary>Central shrine, south wall. Kaṉṉaradeva = Kṛṣṇa III Rāṣṭrakūṭa, RY 22 = 961 CE. </summary>
+                        <summary>Central shrine, south wall. Kaṉṉaradeva = Kṛṣṇa III Rāṣṭrakūṭa, RY 22 = 961 CE.</summary>
                     </msContents>
                     <physDesc>
                         <handDesc>
@@ -71,13 +71,13 @@
                     <unclear>puṟa</unclear>nā
                     <lb n="7" break="no"/>ṭṭi niṉṟu vantu Iññāṭṭiṟ kaṭṭi
                     <lb n="8" break="no"/>l ēṟu maṉṟāṭi vacam oru Āṭu kuṭuppa
-                    <lb n="9" break="no"/>t' ākavuṅ
+                    <lb n="9" break="no"/>t’ ākavuṅ
                 </p>
                 <p>
                     kuṭātu tiṟampi<unclear>ṉō</unclear>mai-k ka
                     <lb n="10" break="no"/>ṇa-p-peru-makkaḷun tēvaraṭiyārum ira
-                    <lb n="11" break="no"/>ṇṭ' āṭu piṭittu-k koḷḷa-p-peṟu
-                    <lb n="12" break="no"/>vat' ākavum
+                    <lb n="11" break="no"/>ṇṭ’ āṭu piṭittu-k koḷḷa-p-peṟu
+                    <lb n="12" break="no"/>vat’ ākavum
                 </p>
                 <p>
                     Oṭṭi-k kuṭuttōm iñ-ñā<unclear>ṭ</unclear>
@@ -86,7 +86,7 @@
                 
                 <p>                    
                     It-<hi rend="grantha">dha<supplied reason="omitted">r</supplied>mma</hi>m <hi rend="grantha"><choice><orig>ś</orig><reg>c</reg></choice>a</hi>
-                    <lb n="14" break="no"/><hi rend="grantha">ndrā</hi>tit=tavat niṟpat' āka niṟutti-k kuṭu
+                    <lb n="14" break="no"/><hi rend="grantha">ndrā</hi>tit=tavat niṟpat’ āka niṟutti-k kuṭu
                     <lb n="15" break="no"/>ppōm āṉō<unclear>m i</unclear>ññā<unclear>ṭu</unclear> mataku ceykiṉ
                     <lb n="16" break="no"/>ṟa matakarōm
                 </p>
@@ -150,6 +150,8 @@
                         <citedRange unit="page">2</citedRange>
                         <citedRange unit="item">4</citedRange>
                     </bibl>
+                    
+                    <!--Add Swaminathan-->
                     
                 </listBibl>
                 

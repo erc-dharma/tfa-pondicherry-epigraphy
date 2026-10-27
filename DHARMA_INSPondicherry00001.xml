@@ -57,14 +57,14 @@
                 
                 <p>
                     <hi rend="grantha">śrī</hi>-kaṉṉāra-tēvarkku yā
-                    <lb n="2" break="no"/>ṇṭu patt' oṉpat-āvatu
+                    <lb n="2" break="no"/>ṇṭu patt’ oṉpat-āvatu
                 </p>
                 <p>
                     vākūr <hi rend="grantha">śrī</hi>-m<choice><orig>u</orig><reg>ū</reg></choice>la<hi rend="grantha">stā</hi>
                     <lb n="3" break="no"/>ṉattu <hi rend="grantha">mahāde</hi>varkku Iṟai-p-puṇai-c-cēriyu
                     <lb n="4" break="no"/>ṭaiyāṉ vāṭṭuḻati nānūṟṟuva<choice><orig>n</orig><reg>ṉ</reg></choice>-ākiya mummu
                     <lb n="5" break="no"/>ṭi-c-cōḻa-p-pallavaraiyaṉ ca<choice><orig>ṉ</orig><reg>n</reg></choice>tirātitta
-                    <lb n="6" break="no"/>val vaytta na<choice><orig>ṉ</orig><reg>n</reg></choice>tā-vilakk' oṉṟiṉukku <hi rend="grantha">vai</hi>t
+                    <lb n="6" break="no"/>val vaytta na<choice><orig>ṉ</orig><reg>n</reg></choice>tā-vilakk’ oṉṟiṉukku <hi rend="grantha">vai</hi>t
                     <lb n="7" break="no"/>ta cāvā m<choice><orig>u</orig><reg>ū</reg></choice>vā pēr-āṭu toṇṇūṟu
                 </p>
                 <p>
@@ -110,6 +110,8 @@
                         <citedRange unit="page">1</citedRange>
                         <citedRange unit="item">1</citedRange>
                     </bibl>
+                    
+                    <!--Add Swaminathan-->
                     
                 </listBibl>
                 
