@@ -8,7 +8,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Pākūr / Vākūr / Bahur, Tirumūlanātar temple, time of Kaṉṉaradeva, year 22</title>
+                <title>Pākūr / Vākūr / Bahur, Tirumūlanātar temple, time of Kaṉṉaradeva, year 24</title>
                 <respStmt>
                     <resp key="creator">author of digital edition</resp>
                     <persName ref="part:emfr">
@@ -51,11 +51,11 @@
             
             <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
                 
-                <p>
+                <ab>
                     <lb n="1"/><hi rend="grantha">śvasti </hi>
-                </p>
+                </ab>
                 <p>
-                    śrī-kaṉṉara-tēva<supplied reason="omitted">r</supplied>kku yā
+                    <hi rend="grantha">śrī</hi>-kaṉṉara-tēva<supplied reason="omitted">r</supplied>kku yā
                     <lb n="2" break="no"/>ṇṭu <num value="24">2 <g type="numeral">10</g> 4</num>-vatu
                 </p>
                 <p>vākūr <hi rend="grantha"><choice><orig>śi</orig><reg>śrī</reg></choice></hi>-m<choice><orig>u</orig><reg>ū</reg></choice>la<hi rend="grantha">stā</hi>ṉa
