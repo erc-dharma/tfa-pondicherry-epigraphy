@@ -55,7 +55,7 @@
                 <p>		
                     <lb n="1"/>
                     <gap reason="lost"/>
-                    <unclear>cakkarava</unclear>ttikal <hi rend="grantha">śrī-rāja-rāja-de</hi>vaṟku
+                    <unclear>cakkarava</unclear>ttikal <hi rend="grantha">śrī-rāja-rāja-de</hi><unclear>vaṟku</unclear>
                     <gap reason="lost"/>
                     
                     <lb n="2"/>
@@ -64,6 +64,98 @@
                     <gap reason="lost"/>
                     
                     <lb n="3"/>
+                    <gap reason="lost"/>
+                    <unclear>ki</unclear>ḻamaiyum peṟṟa Uttirāṭattu nāḷ
+                    <gap reason="lost"/>
+                    
+                    <lb n="4"/>
+                    <gap reason="lost"/>
+                    <unclear>nāṭ</unclear>ṭu muḻaiyūr-nāṭṭu Uḻacciṉ pulattu
+                    <gap reason="lost"/>
+                    
+                    <lb n="5"/>
+                    <gap reason="lost"/>
+                    <hi rend="grantha">dhīśva</hi>ram-u<unclear>ṭaiy</unclear>ār kō<unclear>yi</unclear>l tēvaraṭiyār
+                    <gap reason="lost"/>
+                    
+                    <lb n="6"/>
+                    <gap reason="lost"/>
+                    m-uṭaiyāḷ-āṉa maiyārkaṇṇi I<choice><orig>ṉ-ṉ</orig><reg>n-n</reg></choice>āya<choice><orig>n</orig><reg>ṉ</reg></choice>ār tēvatā<supplied reason="lost">ṉam</supplied>
+                    <gap reason="lost"/>
+                    
+                    <lb n="7"/>
+                    <gap reason="lost"/>
+                    tu nīṅkal nilattu ti <gap reason="lost" quantity="4" unit="character"/> ttukku vaṭak<unclear>k’ u</unclear>ṭapaṭṭa natta<supplied reason="lost">t</supplied>tu
+                    <gap reason="lost"/>
+                    
+                    <lb n="8"/>
+                    <gap reason="lost"/>
+                    <unclear>tē</unclear>var caṇṭē<hi rend="grantha">śva</hi>ra-p-peru-vilai koṇṭa nattam kuḻi nūṟṟukkum
+                    <gap reason="lost"/>
+                    
+                </p>
+                <p>
+                    
+                    <lb n="9"/>
+                    <gap reason="lost"/>
+                    <unclear>pira</unclear>māṇa vilaippaṭi kācu muṉṉūṟukkum <seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>e</seg>
+                    <gap reason="lost"/>
+                    
+                    <lb n="10"/>
+                    <gap reason="lost"/>
+                    yār kōyi<unclear>l Ā</unclear>ti-caṇṭē<hi rend="grantha">śva</hi>ra-tēvakaṉmi
+                    <gap reason="lost"/>
+                    
+                    <lb n="11"/>
+                    <gap reason="lost"/>
+                    k<unclear>ō<!--kāl clear--></unclear>yil tirunāvukkaraiyaṉ tiruna<choice><orig>ṉ</orig><reg>n</reg></choice>tavaṉattukku
+                    <gap reason="lost"/>
+                    
+                    <lb n="12"/>
+                    <gap reason="lost"/>
+                    <unclear>na</unclear><choice><orig><unclear>ṉ</unclear></orig><reg>n</reg></choice><unclear>tava</unclear>ṉapuṟa Iraiyili piramāṇa-Icaivu-<supplied reason="omitted">tīṭ</supplied>ṭu kuṭut
+                    <gap reason="lost"/>
+                    
+                    <lb n="13"/>
+                    <gap reason="lost"/>
+                    pēr-kūvapaṭṭa <unclear>ni</unclear>lattukku k<choice><orig>i</orig><reg>ī</reg></choice>ḻpāṟk’ ellai...
+                    <gap reason="lost"/>
+                    
+                    <lb n="14"/>
+                    <gap reason="lost"/>
+                    vaṭakkum mēlpāṟk’ ellai v<choice><orig>i</orig><reg>ī</reg></choice>ra
+                    <gap reason="lost"/>
+                    
+                    <lb n="15"/>
+                    <gap reason="lost"/>
+                    ṉakku
+                </p>
+                
+                <p>
+                    Urōkacāntiyāka n<choice><orig>i</orig><reg>ī</reg></choice>rvāttiṭṭa
+                    <gap reason="lost"/>
+                    
+                    <lb n="16"/>
+                    <gap reason="lost"/>
+                    ...
+                    <gap reason="lost"/>
+                    
+                    <lb n="17"/>
+                    <gap reason="lost"/>
+                    ...
+                    <gap reason="lost"/>
+                    
+                    <lb n="18"/>
+                    <gap reason="lost"/>
+                    ...
+                    <gap reason="lost"/>
+                    
+                    <lb n="19"/>
+                    <gap reason="lost"/>
+                    ...
+                    <gap reason="lost"/>
+                    
+                    <lb n="20"/>
                     <gap reason="lost"/>
                     ...
                     <gap reason="lost"/>
@@ -78,19 +170,25 @@
             
             <div type="apparatus">
                 
+                <listApp>
+                    <app loc="7">
+                        <lem>natta<supplied reason="lost">t</supplied>tu</lem>
+                        <rdg source="bib:Kuppusamy+Vijayavenugopal2006_01">nattatu</rdg>
+                    </app>
+                </listApp>
+                
             </div>
             
             <div type="translation" source="bib:Kuppusamy+al2010_01">
-                <p n="1-8">...! On ... in the dark fortnight of the month of ... when the asterism was Uttirāṭam, in the
-                    year ... <supplied reason="subaudible">of the reign</supplied> of ... emperor, śrī-Rājarājadevar, ... m-uṭaiyāḷ alias Maiyārkaṇṇi, the <foreign>tēvaraṭiyār</foreign>
-                    of the temple of ... dhīśvaram-uṭaiyār ... of Uḻacciṉpulam in Muḻaiyūr-nāṭu in ...-nāṭu bought 100 <foreign>kuḻi</foreign>s
-                    of nattam land from the temple after excluding the <foreign>devadāna</foreign> land of this deity, situated in the
+                <p n="1-8">...! On ... in the dark fortnight of the month of ... when the asterism was Uttirāṭam, <supplied reason="lost">in the year</supplied> ... <supplied reason="subaudible">of the reign</supplied> of ... emperor, śrī-Rājarājadevar, ... m-uṭaiyāḷ alias Maiyārkaṇṇi, the <foreign>tēvaraṭiyār</foreign>
+                    of the temple of ... dhīśvaram-uṭaiyār ... of Uḻacciṉpulam in Muḻaiyūr-nāṭu in ...-nāṭu bought one hundred <foreign>kuḻi</foreign>s
+                    of <foreign>nattam</foreign> land from the temple after excluding the <foreign>devadāna</foreign> land of this deity, situated in the
                     <foreign>nattam</foreign> on the north side.</p>
                 <p n="9-15">
-                    As per the document of ... the amount was 300 <foreign>kāc</foreign>us the temple servants of
+                    As per the document of ... the amount was 300 <foreign>kācu</foreign>s ... the temple servants of
                     Āticaṇṭēśvara-tēvar of the temple of ... to the Tirunāvukkāraiyaṉ flower garden of ... this was the deed
                     in respect of the tax-free <supplied reason="subaudible">land</supplied> ... the eastern boundary for the land called ... to the north of ... the
-                    western boundary was that it lay to ... of Vīra ...</p>
+                    western boundary ... of Vīra ...</p>
                 <p n="15-21">
                     The land was given by pouring water for relief from illness to ... it was shown in the
                     registration office to ... rkaṇṇiyār ... was sold by him as tax-free ... when the question of paying the tax
