@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pākūr / Vākūr / Bahur, Tirumūlanātar temple, time of Kaṉṉaradeva, year 26</title>
+                <respStmt>
+                    <resp key="creator">author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+                <funder>European Research Council (ERC), grant agreement no 809994</funder></titleStmt>
+            <publicationStmt>
+                <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+                <pubPlace>Paris</pubPlace>
+                <idno type="filename">DHARMA_INSPondicherry00007.xml</idno>
+                <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+                <date from="2019" to="2026">2019-2026</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>as per external metadata</repository></msIdentifier>
+                    <msContents>
+                        <summary>Central shrine, south wall. Kaṉṉaradeva = Kṛṣṇa III Rāṣṭrakūṭa, RY 24 = 965 CE.</summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p></p>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="part:reda" when="2026-11-05" status="draft">Creation of the file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">śrī</hi>-kaṉṉara-<hi rend="grantha">de</hi>varkku yā
+                    <lb n="2" break="no"/>ṇṭu <num value="26">2 <g type="numeral">10</g> 6</num>-Āvatu
+                </p>
+                <p>
+                    na
+                    <lb n="3" break="no"/>mi nākaṉ caṅkara<supplied reason="omitted">ṉ</supplied> I
+                    <lb n="4" break="no"/>ppaṭaikku vaicca
+                    <lb n="5"/>kallu nālu <g ref="sym:flourish-taperOut" type="punctuation">.</g>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                <listApp>
+                    <app loc="3">
+                        <lem source="bib:Kuppusamy+Vijayavenugopal2006_01">nākan</lem>
+                        <rdg source="bib:SubrahmanyaAiyer1932_01">na<unclear>k</unclear>kaṉ</rdg>
+                        <note><ptr target="bib:Kuppusamy+al2010_01"/>: <q>The word <foreign>nākaṉ</foreign> occurring in the third line is given as <foreign>nakkaṉ</foreign> in SII edition; but it is very clear in the wall.</q></note>
+                    </app>     
+                    
+                </listApp>
+            </div>
+            
+            <div type="translation" source="bib:Kuppusamy+al2010_01">
+                <p n="1-2">26th year <supplied reason="subaudible">of the reign</supplied> of śrī-Kaṉṉara-tēvar.</p>
+                <p n="2-5">The stones <supplied reason="subaudible">slabs</supplied> donated by Nami Nākaṉ Caṅkaraṉ, for this tier, are four.</p>
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Reported in <bibl><ptr target="bib:ARIE1901-1902"/></bibl> (ARIE/1901-1902/B/1902/172).</p>
+                
+                <p>Edited in <bibl><ptr target="bib:SubrahmanyaAiyer1932_01"/></bibl> (<ref target="DHARMA_INSSIIv07p0i0804.xml">SII 7.799</ref>).</p>
+                
+                <p>Edited in <bibl><ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/></bibl> (PI 7) and translated in <bibl><ptr target="bib:Kuppusamy+al2010_01"/></bibl> (PI 7).</p>
+                <p>This digital edition by Emmanuel Francis, based on <bibl><ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/></bibl>. This translation adapted from <bibl><ptr target="bib:Kuppusamy+al2010_01"/></bibl>.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SubrahmanyaAiyer1932_01"/>
+                        <citedRange unit="page">407</citedRange>
+                        <citedRange unit="item">799</citedRange>
+                    </bibl>
+                    
+                    <bibl n="PI">
+                        <ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/>
+                        <citedRange unit="page">5</citedRange>
+                        <citedRange unit="item">7</citedRange>
+                    </bibl>
+                    
+                    <bibl n="PI">
+                        <ptr target="bib:Kuppusamy+al2010_01"/>
+                        <citedRange unit="page">3</citedRange>
+                        <citedRange unit="item">67</citedRange>
+                    </bibl>
+                    
+                    <!--Add Swaminathan-->
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    <bibl n="ARIE">
+                        <ptr target="bib:ARIE1901-1902"/>
+                        <citedRange unit="page">13</citedRange>
+                        <citedRange unit="appendix">B/1902</citedRange>
+                        <citedRange unit="item">172</citedRange>                        
+                    </bibl> 
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
