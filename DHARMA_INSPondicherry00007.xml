@@ -28,7 +28,7 @@
                 <msDesc>
                     <msIdentifier><repository>as per external metadata</repository></msIdentifier>
                     <msContents>
-                        <summary>Central shrine, south wall. Kaṉṉaradeva = Kṛṣṇa III Rāṣṭrakūṭa, RY 24 = 965 CE.</summary>
+                        <summary>Central shrine, south wall. Kaṉṉaradeva = Kṛṣṇa III Rāṣṭrakūṭa, RY 26 = 965 CE.</summary>
                     </msContents>
                     <physDesc>
                         <handDesc>
@@ -110,7 +110,7 @@
                     <bibl n="PI">
                         <ptr target="bib:Kuppusamy+al2010_01"/>
                         <citedRange unit="page">3</citedRange>
-                        <citedRange unit="item">67</citedRange>
+                        <citedRange unit="item">7</citedRange>
                     </bibl>
                     
                     <!--Add Swaminathan-->
