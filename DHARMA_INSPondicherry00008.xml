@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pākūr / Vākūr / Bahur, Tirumūlanātar temple, time of Kaṉṉaradeva, year 27</title>
+                <respStmt>
+                    <resp key="creator">author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+                <funder>European Research Council (ERC), grant agreement no 809994</funder></titleStmt>
+            <publicationStmt>
+                <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+                <pubPlace>Paris</pubPlace>
+                <idno type="filename">DHARMA_INSPondicherry00008.xml</idno>
+                <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+                <date from="2019" to="2026">2019-2026</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>as per external metadata</repository></msIdentifier>
+                    <msContents>
+                        <summary><foreign>Ardhamaṇḍapa</foreign>, north wall. Kaṉṉaradeva = Kṛṣṇa III Rāṣṭrakūṭa, RY 27 = 966 CE.</summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p></p>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="part:reda" when="2026-11-05" status="draft">Creation of the file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <ab>		
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi>
+                </ab>
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">śrī</hi>-kaṉṉara-<hi rend="grantha">de</hi>var<surplus>ṟ</surplus>kku yāṇṭu <num value="27">2 <g type="numeral">10</g> 7</num>-Āvatu</p>
+                <p>
+                    <hi rend="grantha">m<choice><sic>ā</sic><corr>a</corr></choice>hā</hi>                    
+                    <lb n="2" break="no"/><hi rend="grantha">bhai</hi> ...
+                    <lb n="3" break="no"/>ṭṭu ...
+                    <lb n="4"/>va<unclear>l</unclear>la ...
+                    <lb n="5"/>...
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                <listApp>
+                    <app loc="0">
+                        <lem source="bib:Kuppusamy+Vijayavenugopal2006_01"></lem>
+                        <rdg source="bib:SubrahmanyaAiyer1932_01"></rdg>
+                    </app>     
+                    
+                </listApp>
+            </div>
+            
+            <div type="translation" source="bib:Kuppusamy+al2010_01">
+                <p n="1">Hail! Prosperity!</p>
+                
+                <p n="1">27th year <supplied reason="subaudible">of the reign</supplied> of śrī-Kaṉṉara-tēvar.</p>
+                
+                <p n="1-3">The manner in which
+                    the great assembly, having met in the big hall of the Lord, have given in writing, after discussions and
+                    upon mutual agreement is <supplied reason="subaudible">as follows</supplied>.</p>
+                <p n="3-7">After purchase, I have given to this donation 20 units <supplied reason="explanation"><foreign>ceṟu</foreign></supplied> from the property of Cempiyaṉ
+                    Muṉaippāṭi Mūvēntavēḷāṉ in Kaliyūṉṟi at Neriñci kuṟumpaṟ kaḻaṉi, our Brahmin settlement, for
+                    performing worship to the great Lord of śrī-Mūlastāṉam of our village through the Brahmins who are
+                    well versed in Vedas and to the person who supplies water from the Nelli Ēttam<note>That is, Ēṟṟam.</note> for the sacred
+                    bath.</p>
+                <p n="7-8">We, the members of the great assembly have ratified this donation as long as the moon and
+                the sun will last; we have made it tax-free.</p>
+                <p n="8-10">25 kaḻañcus of gold are to be collected in different ways from those who trespass this
+                    agreement, on behalf of the ruler of the day <supplied reason="explanation"><foreign>aṉṟāḷ kō</foreign></supplied>, as capital for the court of justice.</p>
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Reported in <bibl><ptr target="bib:ARIE1901-1902"/></bibl> (ARIE/1901-1902/B/1902/184).</p>
+                
+                <p>Edited in <bibl><ptr target="bib:SubrahmanyaAiyer1932_01"/></bibl> (<ref target="DHARMA_INSSIIv07p0i0804.xml">SII 7.811</ref>).</p>
+                
+                <p>Edited in <bibl><ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/></bibl> (PI 8) and translated in <bibl><ptr target="bib:Kuppusamy+al2010_01"/></bibl> (PI 8).</p>
+                <p>This digital edition by Emmanuel Francis, based on <bibl><ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/></bibl>. This translation adapted from <bibl><ptr target="bib:Kuppusamy+al2010_01"/></bibl>.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SubrahmanyaAiyer1932_01"/>
+                        <citedRange unit="page">412</citedRange>
+                        <citedRange unit="item">811</citedRange>
+                    </bibl>
+                    
+                    <bibl n="PI">
+                        <ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/>
+                        <citedRange unit="page">6</citedRange>
+                        <citedRange unit="item">8</citedRange>
+                    </bibl>
+                    
+                    <bibl n="PI">
+                        <ptr target="bib:Kuppusamy+al2010_01"/>
+                        <citedRange unit="page">3</citedRange>
+                        <citedRange unit="item">8</citedRange>
+                    </bibl>
+                    
+                    <!--Add Swaminathan-->
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    <bibl n="ARIE">
+                        <ptr target="bib:ARIE1901-1902"/>
+                        <citedRange unit="page">14</citedRange>
+                        <citedRange unit="appendix">B/1902</citedRange>
+                        <citedRange unit="item">184</citedRange>                        
+                    </bibl> 
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
