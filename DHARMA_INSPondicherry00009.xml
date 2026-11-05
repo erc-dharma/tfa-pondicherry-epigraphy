@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pākūr / Vākūr / Bahur, Tirumūlanātar temple, time of Kaṉṉaradeva, year 27</title>
+                <respStmt>
+                    <resp key="creator">author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+                <funder>European Research Council (ERC), grant agreement no 809994</funder></titleStmt>
+            <publicationStmt>
+                <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+                <pubPlace>Paris</pubPlace>
+                <idno type="filename">DHARMA_INSPondicherry00009.xml</idno>
+                <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+                <date from="2019" to="2026">2019-2026</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>as per external metadata</repository></msIdentifier>
+                    <msContents>
+                        <summary><foreign>Ardhamaṇḍapa</foreign>, north wall. Kaṉṉaradeva = Kṛṣṇa III Rāṣṭrakūṭa, RY 27 = 966 CE.</summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p></p>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="part:reda" when="2026-11-05" status="draft">Creation of the file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <ab>		
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi>
+                </ab>
+                
+                <p>
+                    <hi rend="grantha">śrī</hi>-kaṉṉara-<hi rend="grantha">de</hi>va<supplied reason="omitted">r</supplied>kki yāṇṭu <num value="27"><unclear>2</unclear> <g type="numeral">10</g> 7</num>-Āvatu</p>
+                <p>
+                    vākūr <hi rend="grantha">śrī</hi>-m<choice><orig>u</orig><reg>ū</reg></choice>la<hi rend="grantha">st<unclear>ā</unclear></hi>
+                    <lb n="2" break="no"/>ṉattu pu<surplus>ṇ</surplus><hi rend="grantha">ṇya</hi>-kaṇattu perumakkaḷ<unclear>ō<!--kompu clear--></unclear>m Ivvūr āḷum perumakkaḷ-uḷ Ampa
+                    <lb n="3" break="no"/>ṭukkai kōvin=ta-paṭṭa-cōmāciyār makaṉ mati<unclear>cū</unclear>ta<hi rend="grantha">krama</hi>vi<supplied reason="omitted">t</supplied>taṉukku Oṭṭi Iṭṭu-k kuṭutta
+                    <lb n="4"/>paric' ā<supplied reason="omitted">va</supplied>tu
+                </p>
+                <p>       
+                    I<supplied reason="omitted">va</supplied>ṉukku I-<hi rend="grantha">śrī</hi>-kōyi<unclear>li</unclear>lē <hi rend="grantha">vai</hi>ccu Ira<unclear>ṇ</unclear>ṭu kalam Uttama<hi rend="grantha">Āgraṃ</hi> Iraṇtu kaṟiyu<unclear>m</unclear>
+                    <lb n="5"/>neyyum Aṭṭuvitum kāyamilaiyoṭum ca<hi rend="grantha">n<choice><orig>t</orig><reg>d</reg></choice>rā</hi>tittaval Uṭṭuvata<supplied reason="omitted">r</supplied>kku vēṇṭu<supplied reason="omitted">m</supplied> <hi rend="grantha">dravya</hi>
+                    <lb n="6" break="no"/>m Ivaṉ pakkal koṇṭu I<hi rend="grantha">dravya</hi>mē-y kuṭut<unclear>tu</unclear> Ūrār pakkal <hi rend="grantha">can<choice><orig>t</orig><reg>d</reg></choice>rā</hi>tittaval I<unclear>ṟ</unclear>ai
+                    <lb n="7" break="no"/>yili poṉ kuṭuttu koṇṭu tiru<supplied reason="omitted">t</supplied>tiṉa pūmi-y Ivvūr kaṭampēri k<choice><orig>i</orig><reg>ī</reg></choice>ḻ teṉkaḻaṉi ka
+                    <lb n="8" break="no"/>ḻuveṟimeṭṭu Umā-piṭāri Eṉṉum ceṟuvu mik<choice><sic>i</sic><corr>u</corr></choice>ti kuṟaimai Uḷḷ aṭaṅka patiṉ ēḻu ceṟuvi<unclear>l</unclear>
+                    <lb n="9" break="no"/><hi rend="grantha">bh<unclear>o<!--kāl clear--></unclear>ga</hi>ttilum Ivaṉuk<unclear>ku</unclear> Iraṇṭu kalam U<unclear>t</unclear>tamā<hi rend="grantha">kra</hi>m Uṭṭuvōm Āṉōm niṉṟa <unclear>pō</unclear>
+                    <lb n="10" break="no"/>kamum Uttā<hi rend="grantha">mākra</hi>m Uṭṭuvōm ākavum
+                </p>
+                <p>
+                    Itu<unclear>kku</unclear> virōtam c<choice><sic><unclear>e</unclear></sic><corr>ey</corr></choice>tarai-t <hi rend="grantha">dhanmāsa</hi><unclear>na</unclear>-mu
+                    <lb n="11" break="no"/>tal-āka-t tā<unclear>n</unclear> vēṇtu kōvukkē vevveṟṟu vakai <unclear>I</unclear>ru-pat<supplied reason="omitted">tu</supplied> <unclear>Ai</unclear>ṅ-kaḻañcu poṉ maṉ<unclear>ṟa</unclear>-p <surplus>pe</surplus>
+                    <lb n="12"/>peṟuvār ā
+                    <lb n="13" break="no"/>kavum                    
+                </p>
+                <p>
+                    maṉ
+                    <lb n="14" break="no"/>ṟupāṭu Iṟu
+                    <lb n="15" break="no"/>ttum Ippa
+                    <lb n="16" break="no"/>ricē-y Iv
+                    <lb n="17" break="no"/><unclear>vu</unclear>ttama A<hi rend="grantha">gra</hi>
+                    <lb n="18" break="no"/>m Uṭṭuvō
+                    <lb n="19" break="no"/>m āṉōm pu<surplus>ṇ</surplus>
+                    <lb n="20" break="no"/><hi rend="grantha">ṇya</hi><surplus>ya</surplus>-k kaṇap
+                    <lb n="21" break="no"/>perumakkaḷō
+                    <lb n="22" break="no"/><unclear>m</unclear>
+                </p>
+            </div>
+            
+            <div type="apparatus">
+                <listApp>
+                    <app loc="0">
+                        <lem source="bib:Kuppusamy+Vijayavenugopal2006_01"></lem>
+                        <rdg source="bib:SubrahmanyaAiyer1932_01"></rdg>
+                    </app>     
+                    <app loc="3">
+                        <lem source="bib:SubrahmanyaAiyer1932_01">mati<unclear>cū</unclear>ta<hi rend="grantha">krama</hi>°</lem>
+                        <rdg source="bib:Kuppusamy+Vijayavenugopal2006_01">mati<unclear>cū</unclear><hi rend="grantha">tyakkrama</hi>°</rdg>
+                    </app>     
+                    <app loc="8">
+                        <lem>mik<choice><sic>i</sic><corr>u</corr></choice>ti</lem>
+                        <rdg source="bib:SubrahmanyaAiyer1932_01 bib:Kuppusamy+Vijayavenugopal2006_01">mikiti</rdg>
+                    </app>     
+                </listApp>
+            </div>
+            
+            <div type="translation" source="bib:Kuppusamy+al2010_01">
+                <p n="1">Hail! Prosperity!</p>
+                
+                <p n="1">Year 27th <supplied reason="subaudible">of the reign</supplied> of śrī-Kaṉṉara-tēvar.</p>
+                
+                <p n="1-4">The manner in which we, the honourable members of the Puṇya Gaṇa <supplied reason="explanation">group of sacred service</supplied> of śrī-Mūlastāṉam of Vākūr provided upon mutual consent <supplied reason="subaudible">a document</supplied> to Matisūta-k-kramavittaṉ, son of Ampaṭukkai kōvintapaṭṭa-c-cōmāciyār, a member of the honourable administrative council of this village is <supplied reason="subaudible">as follows</supplied>.</p>
+                <p n="4-9">We shall feed him <supplied reason="explanation">Matisūta-kramavittaṉ</supplied> with two pots of special food, out of each crop, from the land of more or less seventeen divisions <supplied reason="subaudible">of land</supplied> called Teṉkaḻaṉi Kaluveṟi Meṭṭu Umā Piṭāri in the irrigation area of Kaṭampēri of this village, which was bought from the village committee as tax free as long as the moon and sun will last, by giving gold, after getting money <supplied reason="explanation"><foreign>dravyam</foreign></supplied> from him <supplied reason="explanation">Matisūta-kramavittaṉ</supplied> for feeding him with two pots of special food, cooked at the temple, along with two side dishes, butter oil, <supplied reason="subaudible">areca</supplied> nut and <supplied reason="subaudible">betel</supplied> leaf.</p>                
+                <p n="9-10">Even if the crop failed we shall feed him with this special food.</p>
+                <p n="10-13">From those who act contrary to this, twenty-five <foreign>kaḻañcu</foreign>s of gold is to be collected in various kinds on behalf of the demanding officer towards the capital for the court of justice.</p>
+                <p n="13-22">We, the honourable members of the group of the sacred service shall feed this special food <supplied reason="subaudible">even</supplied> by paying what has been collected.</p>
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Reported in <bibl><ptr target="bib:ARIE1901-1902"/></bibl> (ARIE/1901-1902/B/1902/183).</p>
+                
+                <p>Edited in <bibl><ptr target="bib:SubrahmanyaAiyer1932_01"/></bibl> (<ref target="DHARMA_INSSIIv07p0i0804.xml">SII 7.810</ref>).</p>
+                
+                <p>Edited in <bibl><ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/></bibl> (PI 9) and translated in <bibl><ptr target="bib:Kuppusamy+al2010_01"/></bibl> (PI 9).</p>
+                <p>This digital edition by Emmanuel Francis, based on <bibl><ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/></bibl>. This translation adapted from <bibl><ptr target="bib:Kuppusamy+al2010_01"/></bibl>.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SubrahmanyaAiyer1932_01"/>
+                        <citedRange unit="page">411-412</citedRange>
+                        <citedRange unit="item">811</citedRange>
+                    </bibl>
+                    
+                    <bibl n="PI">
+                        <ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/>
+                        <citedRange unit="page">7-8</citedRange>
+                        <citedRange unit="item">9</citedRange>
+                    </bibl>
+                    
+                    <bibl n="PI">
+                        <ptr target="bib:Kuppusamy+al2010_01"/>
+                        <citedRange unit="page">3-4</citedRange>
+                        <citedRange unit="item">9</citedRange>
+                    </bibl>
+                    
+                    <!--Add Swaminathan-->
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    <bibl n="ARIE">
+                        <ptr target="bib:ARIE1901-1902"/>
+                        <citedRange unit="page">14</citedRange>
+                        <citedRange unit="appendix">B/1902</citedRange>
+                        <citedRange unit="item">183</citedRange>                        
+                    </bibl> 
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
