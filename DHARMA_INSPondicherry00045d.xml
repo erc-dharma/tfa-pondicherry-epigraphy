@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pākūr / Vākūr / Bahur, Piṭāri temple, 1885 CE</title>
+                <respStmt>
+                    <resp key="creator">author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+                <funder>European Research Council (ERC), grant agreement no 809994</funder></titleStmt>
+            <publicationStmt>
+                <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+                <pubPlace>Paris</pubPlace>
+                <idno type="filename">DHARMA_INSPondicherry00045d.xml</idno>
+                <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+                <date from="2019" to="2026">2019-2026</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>as per external metadata</repository></msIdentifier>
+                    <msContents>
+                        <summary>Piṭāri temple in Pākūr outskirts, basement.</summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p></p>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="part:reda" when="2026-11-06" status="draft">Creation of the file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                  <p>		
+                    <lb n="1"/>1885 <g ref="sym:tam-varusam" type="ideogram">@</g> tai <g ref="sym:tam-matam" type="ideogram">@</g>
+                    <lb n="2"/>kaṭṭappaṭṭatu.
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                <listApp>
+                    <app loc="0">
+                        <lem source="bib:Kuppusamy+Vijayavenugopal2006_01"></lem>
+                    </app>     
+                    
+                </listApp>
+            </div>
+            
+            <div type="translation" source="bib:Kuppusamy+al2010_01">
+                <p n="1-2">It was built in the month of Tai <supplied reason="explanation">January-February</supplied> in the year 1885.</p>
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Not reported in ARIE.</p>
+                
+                <p>Edited in <bibl><ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/></bibl> (PI 45ī) and translated in <bibl><ptr target="bib:Kuppusamy+al2010_01"/></bibl> (PI 45d).</p>
+                <p>This digital edition by Emmanuel Francis, based on <bibl><ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/></bibl>. This translation adapted from <bibl><ptr target="bib:Kuppusamy+al2010_01"/></bibl>.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="PI">
+                        <ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/>
+                        <citedRange unit="page">56</citedRange>
+                        <citedRange unit="item">45ī</citedRange>
+                    </bibl>
+                    
+                    <bibl n="PI">
+                        <ptr target="bib:Kuppusamy+al2010_01"/>
+                        <citedRange unit="page">23</citedRange>
+                        <citedRange unit="item">45d</citedRange>
+                    </bibl>
+                    
+                    <!--Add Swaminathan-->
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
