@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Tiruvāṇṭārkōyil, Pañcanatīśvara temple, time of Parakesarivarma, year 40+</title>
+                <respStmt>
+                    <resp key="creator">author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+                <funder>European Research Council (ERC), grant agreement no 809994</funder></titleStmt>
+            <publicationStmt>
+                <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+                <pubPlace>Paris</pubPlace>
+                <idno type="filename">DHARMA_INSPondicherry00046.xml</idno>
+                <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+                <date from="2019" to="2026">2019-2026</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>as per external metadata</repository></msIdentifier>
+                    <msContents>
+                        <summary>Fragment. Parāntaka I Cōḻa, year 40+, 947 CE at the earliest.</summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p></p>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="part:reda" when="2026-11-06" status="draft">Creation of the file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>		
+                    <lb n="1"/>
+                    <gap reason="lost"/>
+                    ṭa kō-p-para-kēsari-paṉ<supplied reason="lost">mar</supplied>kku yāṇṭu nālppa
+                    <gap reason="lost"/>
+                    tocam tiripuvaṉa-mātēvi-c-ca
+                    <gap reason="lost"/>
+                    <lb n="2"/>
+                    <gap reason="lost"/>
+                    parama-cuvāmikaḷukku Ivvūr-k kuñcuramalla-p pe
+                    <gap reason="lost"/>
+                    rippāṉ pūti makaṉ maṇinākaṉ
+                    <gap reason="lost"/>
+                    <lb n="3"/>
+                    <gap reason="lost"/>
+                    ṇṇūṟu Āṭum koṇṭu tiruviḷa
+                    <gap reason="lost"/>
+                    ṉ talai mēllattu
+                    <gap reason="lost"/>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                <listApp>
+                    <app loc="1">
+                        <lem>°paṉ<supplied reason="lost">mar</supplied>kku</lem>
+                        <rdg source="bib:Kuppusamy+Vijayavenugopal2006_01">paṉ<supplied reason="lost">maṟ</supplied>kku</rdg>
+                    </app>     
+                    
+                </listApp>
+            </div>
+            
+            <div type="translation" source="bib:Kuppusamy+al2010_01">
+                <p n="1"><gap reason="lost"/> year fourty <gap reason="lost"/> of the king Parakēsaripaṉmar <gap reason="lost"/> Tiripuvaṉamātēvicca <gap reason="lost"/></p>
+                <p n="2"><gap reason="lost"/> Maṇināka, the son of <gap reason="lost"/> rippāṉ Pūti <gap reason="lost"/> Kuñjaramallappe <gap reason="lost"/> of this village, to the Lord Paramasvāmikaḷ <gap reason="lost"/></p>
+                <p n="3"><gap reason="lost"/> the sacred lamp <supplied reason="subaudible">to be burnt</supplied> after receiving the ninety sheep <gap reason="lost"/></p>
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Not reported in ARIE.</p>
+                
+                <p>Edited in <bibl><ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/></bibl> (PI 46) and translated in <bibl><ptr target="bib:Kuppusamy+al2010_01"/></bibl> (PI 46).</p>
+                <p>This digital edition by Emmanuel Francis, based on <bibl><ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/></bibl>. This translation adapted from <bibl><ptr target="bib:Kuppusamy+al2010_01"/></bibl>.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="PI">
+                        <ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/>
+                        <citedRange unit="page">56</citedRange>
+                        <citedRange unit="item">46</citedRange>
+                    </bibl>
+                    
+                    <bibl n="PI">
+                        <ptr target="bib:Kuppusamy+al2010_01"/>
+                        <citedRange unit="page">23</citedRange>
+                        <citedRange unit="item">46</citedRange>
+                    </bibl>
+                    
+                    <!--Add Swaminathan-->
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
