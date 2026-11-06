@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pākūr / Vākūr / Bahur, Tirumūlanātar temple, time of Parakesarivarman, year 3</title>
+                <respStmt>
+                    <resp key="creator">author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+                <funder>European Research Council (ERC), grant agreement no 809994</funder></titleStmt>
+            <publicationStmt>
+                <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+                <pubPlace>Paris</pubPlace>
+                <idno type="filename">DHARMA_INSPondicherry00010.xml</idno>
+                <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+                <date from="2019" to="2026">2019-2026</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>as per external metadata</repository></msIdentifier>
+                    <msContents>
+                        <summary><foreign>Ardhamaṇḍapa</foreign>, north wall. Parakesarivarman = Āditya II Cōḻa, RY 3 = 963 CE.</summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p></p>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="part:reda" when="2026-11-06" status="draft">Creation of the file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                  <ab>		
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi>
+                </ab>
+                
+                <p>
+                    v<choice><orig>i</orig><reg>ī</reg></choice>ra-pāṇṭiyaṉ talai koṇṭa kō
+                    <lb n="2" break="no"/>-parakē<hi rend="grantha">sa</hi>ri-pa<hi rend="grantha">nma</hi><reg>r</reg>kku yāṇṭu 3-vatu
+                </p>
+                <p>
+                    vākūr <hi rend="grantha">śrī</hi>-m<choice><orig>u</orig><reg>ū</reg></choice>
+                    <lb n="3" break="no"/>la<hi rend="grantha">s<choice><orig>t</orig><reg>th</reg></choice>ā</hi>ṉattu <hi rend="grantha">mahāde</hi>va<reg>r</reg>kku-c cempūr-k-kōṭṭattu
+                    <lb n="4"/>netim<choice><orig>u</orig><reg>ū</reg></choice>r-nāṭṭu-k karai Uṭaiyā<supplied reason="omitted">ṉ</supplied> kaliyaṉ maṉṟāti Aiyya
+                    <lb n="5" break="no"/><choice><orig>ṉṉ</orig><reg>ṉ</reg></choice>-ākiya Ācārakānta-p-palla
+                    <lb n="6" break="no"/>raiyaṉ ca<hi rend="grantha">n<choice><orig>t</orig><reg>d</reg></choice>rā</hi>ti<supplied reason="omitted">t</supplied>taval vaitta na
+                    <lb n="7" break="no"/>n=tā-viḷakk' oṉṟiṉukku vaitta cāvā
+                    <lb n="8"/>m<choice><orig>u</orig><reg>ū</reg></choice>vā-p pēr-āṭu toṇṇūṟṟ' āṟu
+                    <lb n="9"/>Eriya vaitta nilai-viḷakk' o
+                    <lb n="10" break="no"/>ṉṟu
+                </p>
+                <p>
+                    Ivai paṉmayē<surplus><hi rend="grantha">ha</hi></surplus><hi rend="grantha">śva</hi>
+                    <lb n="11" break="no"/><hi rend="grantha">ra</hi> I<hi rend="grantha">rakṣai</hi>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                <listApp>
+                    <app loc="0">
+                        <lem source="bib:Kuppusamy+Vijayavenugopal2006_01"></lem>
+                    </app>     
+                    
+                </listApp>
+            </div>
+            
+            <div type="translation" source="bib:Kuppusamy+al2010_01">
+                <p n="1">Hail! Prosperity!</p>
+                <p n="1-2">3rd year <supplied reason="subaudible">of the reign</supplied> of the king Parakēsaripanmar who took
+the head of Vīrapāṇṭiyaṉ.</p>
+                <p n="2-10">The never dying and never aging sheep donated by Kaliyaṉ Maṉṟāṭi Aiyyaṉ alias Ācārakānta-p-pallavaraiyaṉ, a share holder <supplied reason="explanation"><foreign>karai uṭaiyāṉ</foreign></supplied> of Netimūr-nāṭu in Cempūr-k-kōṭṭam <supplied reason="explanation">an administrative division</supplied>, for a perpetual lamp to the great Lord of śrī-Mūlastāṉam of Vākūr, are
+ninety-six; the standing lamp set up to burn is one.</p>
+                <p n="10-11">These are under the protection of the great Śaiva devotees.</p>
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Not reported in ARIE.</p>
+                
+                <p>Edited in <bibl><ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/></bibl> (PI 10) and translated in <bibl><ptr target="bib:Kuppusamy+al2010_01"/></bibl> (PI 10).</p>
+                <p>This digital edition by Emmanuel Francis, based on <bibl><ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/></bibl>. This translation adapted from <bibl><ptr target="bib:Kuppusamy+al2010_01"/></bibl>.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="PI">
+                        <ptr target="bib:Kuppusamy+Vijayavenugopal2006_01"/>
+                        <citedRange unit="page">8-9</citedRange>
+                        <citedRange unit="item">10</citedRange>
+                    </bibl>
+                    
+                    <bibl n="PI">
+                        <ptr target="bib:Kuppusamy+al2010_01"/>
+                        <citedRange unit="page">4</citedRange>
+                        <citedRange unit="item">10</citedRange>
+                    </bibl>
+                    
+                    <!--Add Swaminathan-->
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
